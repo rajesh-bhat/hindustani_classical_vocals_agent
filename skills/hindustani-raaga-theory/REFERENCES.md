@@ -9,7 +9,7 @@ on Hindustani classical music theory.
 
 ### 1. Wikipedia — List of Ragas in Hindustani Classical Music
 - **URL**: https://en.wikipedia.org/wiki/List_of_ragas_in_Hindustani_classical_music
-- **Used for**: Complete index of 1,164 raaga names, thaat classifications, alphabetical organization
+- **Used for**: Source catalogue (1,164 entries) from which the 140+ raagas in `raagas/index.md` were curated, plus thaat classifications
 - **Coverage**: All entries in `raagas/index.md`
 
 ### 2. Wikipedia — Individual Raaga Pages

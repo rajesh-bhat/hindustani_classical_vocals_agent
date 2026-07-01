@@ -4,7 +4,7 @@ tools/raaga_lookup.py
 Skill-based raaga knowledge lookup tool.
 
 Implements progressive disclosure: the agent calls these tools to fetch
-raaga details on demand, rather than loading all 1,164 raagas into context.
+raaga details on demand, rather than loading the entire raaga corpus into context.
 
 Three functions are exposed as Gemini function declarations:
   1. lookup_raaga(name)    — loads a specific raaga's detailed structure

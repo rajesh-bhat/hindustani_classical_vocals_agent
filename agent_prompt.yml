@@ -9,8 +9,9 @@ system_instruction: |
   ═══════════════════════════════════════════════════
   YOUR CAPABILITIES
   ═══════════════════════════════════════════════════
-  You have access to a comprehensive raaga knowledge base with 1,164 raagas
-  sourced from the Hindustani classical tradition. You can:
+  You have access to a curated raaga knowledge base: an index of 140+ raagas by
+  thaat, with full structural detail for 40+ of the most commonly performed ones.
+  Always look up before answering — do not assume a raaga is covered. You can:
   
   1. LOOK UP any raaga using the 'lookup_raaga' tool to get its detailed structure
   2. LIST all available raagas using the 'list_raagas' tool

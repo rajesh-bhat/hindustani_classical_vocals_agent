@@ -1,8 +1,8 @@
 ---
 name: hindustani-raaga-theory
 description: >-
-  Comprehensive Hindustani classical music raaga knowledge base covering 1,164
-  raagas, with structural details for 40+ of them — aaroh, avaroh, pakad, vadi,
+  Hindustani classical music raaga knowledge base indexing 140+ raagas by thaat,
+  with full structural details for 40+ of them — aaroh, avaroh, pakad, vadi,
   samvadi, thaat, jaati, time of performance, mood, and chalan rules. Use this
   skill whenever the user asks about any raaga, its swara rules or structure, how
   two raagas differ, or core Hindustani theory such as thaats, saptak, or
@@ -26,8 +26,8 @@ When asked about a specific raaga, call `lookup_raaga(raaga_name)` to load its d
 - Time theory (prahar), vadi/samvadi, jaati
 
 **Raaga Index**: See [raagas/index.md](raagas/index.md)
-- Full list of 1,164 raagas with thaat associations
-- Sourced from Wikipedia's comprehensive Hindustani raaga list
+- 140+ raagas organized by thaat
+- Curated from Wikipedia's 1,164-entry Hindustani raaga list
 
 **Detailed Raagas**: See individual files in [raagas/](raagas/)
 - 40+ famous raagas with complete structure

@@ -1,7 +1,8 @@
-# Hindustani Classical Raagas — Complete Index
+# Hindustani Classical Raagas — Index by Thaat
 
-Comprehensive list of raagas in Hindustani classical music, organized by Thaat.
-Sourced from Wikipedia's List of Ragas in Hindustani Classical Music (1,164 entries).
+A curated selection of 140+ commonly performed raagas, organized by Thaat.
+Drawn from Wikipedia's List of Ragas in Hindustani Classical Music (a 1,164-entry
+catalogue); this index covers the widely sung raagas, not the full list.
 
 ## Contents
 - Bilawal Thaat Raagas

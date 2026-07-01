@@ -1,7 +1,7 @@
 # 🎵 Raaga Guru — Voice AI for Hindustani Classical Music
 
-A real-time voice AI agent that teaches Hindustani classical music raaga theory. 
-Ask about any raaga's structure, swara rules, aaroh-avaroh, pakad, and more — all through natural voice conversation.
+A real-time AI agent that teaches Hindustani classical music raaga theory. 
+Ask about any raaga's structure, swara rules, aaroh-avaroh, pakad, and more — by voice or by text.
 
 ## Why a skills-based knowledge base (not just the model)?
 
@@ -12,8 +12,8 @@ knowledge base loaded on demand:
 
 - **Accuracy over hallucination** — the model must treat the loaded skill file as ground truth
   (never "correct" it from memory), so answers come from curated data, not fuzzy recall.
-- **Context efficiency (progressive disclosure)** — 1,164 raagas can't fit in a prompt; only the
-  one or two files a question needs are loaded, keeping each request small, cheap, and focused.
+- **Context efficiency (progressive disclosure)** — the full raaga corpus can't fit in a prompt;
+  only the one or two files a question needs are loaded, keeping each request small and focused.
 - **Verifiable provenance** — every fact traces to a cited source (Bhatkhande, Tanarang, ITC SRA).
 - **Update without retraining** — fix a pakad or add a raaga by editing a markdown file.
 - **Consistency & authority** — one coherent interpretation (Bhatkhande system), so the guru
@@ -46,8 +46,8 @@ Live models are audio-native and can't return text-only responses.
 **Key features:**
 - **Voice-in / Voice-out**: Speak questions, hear answers
 - **Text-only mode**: Type questions and read replies — no mic or speakers needed
-- **Progressive disclosure**: 30+ detailed raaga skill files loaded on-demand
-- **1,164 raaga index**: Complete Wikipedia-sourced Hindustani raaga list
+- **Progressive disclosure**: 40+ detailed raaga skill files loaded on-demand
+- **Raaga index**: 140+ raagas organized by thaat, curated from Wikipedia's 1,164-entry list
 - **Google Search fallback** (voice mode): For raagas not in the local knowledge base
 - **Real-time transcript**: See what you said and what the guru said
 
@@ -91,7 +91,7 @@ The knowledge base is a self-contained [Agent Skill](https://docs.claude.com/en/
 |------|---------|
 | `SKILL.md` | Entry point — frontmatter + decision tree for navigation |
 | `raaga_fundamentals.md` | Core theory (swaras, thaats, jaati, time) |
-| `raagas/index.md` | Full index of 1,164 raagas by thaat |
+| `raagas/index.md` | Index of 140+ raagas by thaat (curated from Wikipedia's 1,164-entry list) |
 | `raagas/<name>.md` | Detailed structure for 40+ famous raagas |
 | `REFERENCES.md` | Source citations for every file |
 
