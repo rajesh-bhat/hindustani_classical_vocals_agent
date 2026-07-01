@@ -1,0 +1,24 @@
+# Raag Bhimpalasi
+- **Thaat**: Kafi
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late afternoon (3 PM – 6 PM)
+- **Rasa/Mood**: Shringara (romantic), karuna, devotional, gentle melancholy
+- **Swaras Used**: S R g m P D n (komal Ga, komal Ni)
+- **Varjit**: Re and Dha omitted in aaroh
+- **Aaroh**: 'n S g m P n S' (no Re, no Dha; starts from lower Ni)
+- **Avaroh**: S' n D P m g R S
+- **Pakad**: g m P, n D P, m g R S
+- **Chalan Rules**:
+  - In aaroh, skip Re and Dha — this distinguishes it from Kafi
+  - The rising phrase g m P is essential
+  - Ma and Pa are strong resting points
+  - Komal Ga with andolan gives it the emotional quality
+  - Very popular raaga for afternoon concerts
+  - Often the first raaga taught to students after basic ones
+- **Similar Raagas**:
+  - **Dhanashri**: Same swaras but different chalan and emphasis
+  - **Bageshri**: Similar komal Ga/Ni but night raaga with different pakad
+  - **Patdeep**: Also afternoon but with distinct ascending phrases
+  - **Kafi**: Full Kafi thaat — Bhimpalasi is a subset

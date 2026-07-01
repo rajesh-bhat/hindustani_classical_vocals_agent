@@ -1,0 +1,24 @@
+# Raag Abhogi
+- **Thaat**: Kafi
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late afternoon to evening (flexible)
+- **Rasa/Mood**: Tender, devotional, gentle, accessible
+- **Swaras Used**: S R g m D (komal Ga)
+- **Varjit**: Pa and Ni omitted
+- **Aaroh**: S R g m D S'
+- **Avaroh**: S' D m g R S
+- **Pakad**: S R g m D, m g R S
+- **Chalan Rules**:
+  - Simple pentatonic derived from Kafi thaat
+  - Only 5 notes: S R g m D — no Pa, no Ni
+  - Komal Ga is the defining swara
+  - Ma is the resting point (vadi)
+  - The absence of Pa creates an incomplete, yearning quality
+  - Very accessible — good for beginners
+  - Popular in Carnatic music (Abhogi Raga)
+- **Similar Raagas**:
+  - **Bageshri**: Adds Pa and Ni to Abhogi's base
+  - **Bhimpalasi**: Kafi thaat with all 7 notes
+  - **Durga**: Also pentatonic but S R m P D (shuddha Ma, different notes)

@@ -1,0 +1,27 @@
+# Raag Darbari Kanada
+- **Thaat**: Asavari
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Re (shuddha)
+- **Samvadi**: Pa
+- **Time**: Late night — 3rd prahar of night (12 AM – 3 AM)
+- **Rasa/Mood**: Gambhir (gravity), veera (heroism), royal dignity, contemplation
+- **Swaras Used**: S R g m P d n (komal Ga, komal Dha, komal Ni)
+- **Varjit**: None
+- **Aaroh**: S R g m P, d n S'
+- **Avaroh**: S' d n P, m P g, m R S
+- **Pakad**: m P g, m R S / R g, d n S'
+- **Chalan Rules**:
+  - Attributed to Tansen (court musician of Emperor Akbar)
+  - Komal Ga and komal Dha are used with HEAVY andolan (oscillation) — the defining feature
+  - The andolan on Ga should be slow, deep, and meditative
+  - Pa is strong and a major resting point
+  - The phrase m P g (ascending to Pa then falling to Ga) is quintessential
+  - Sa and Re are important anchors in the purvanga
+  - Never rush this raaga — it demands vilambit (slow) treatment
+  - The grandeur comes from deliberate, weighted movements
+- **Similar Raagas**:
+  - **Adana**: Shares similar swaras but is faster paced, more energetic
+  - **Kaunsi Kanada**: Lighter Kanada variant with different treatment
+  - **Nayaki Kanada**: Softer Kanada with more Shadav approach
+  - **Asavari**: Same thaat but much simpler and lacks the andolan depth
+  - **Jaunpuri**: Same thaat but morning raaga with completely different mood

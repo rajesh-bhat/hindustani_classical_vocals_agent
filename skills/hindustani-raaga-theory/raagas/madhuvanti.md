@@ -1,0 +1,24 @@
+# Raag Madhuvanti
+- **Thaat**: Todi (some classify under Kalyan due to tivra Ma)
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Pa
+- **Samvadi**: Sa
+- **Time**: Late afternoon (3 PM – 6 PM)
+- **Rasa/Mood**: Shringara (romantic), sweet, tender, afternoon beauty
+- **Swaras Used**: S g M P D N (komal Ga, tivra Ma — aaroh); S N D P M g R S (avaroh adds Re)
+- **Varjit**: Re omitted in aaroh; Dha omitted in aaroh in some traditions
+- **Aaroh**: 'N S g M P N S' (Re omitted, starts from lower Ni)
+- **Avaroh**: S' N D P M g R S
+- **Pakad**: g M D N S', N D P, M g R S
+- **Chalan Rules**:
+  - Sweet, romantic afternoon raaga
+  - Komal Ga with tivra Ma creates a unique blend
+  - The ascent skips Re (goes directly S g M)
+  - Tivra Ma is the dominant note — elongate and emphasize
+  - The phrase g M D N S' has a soaring quality
+  - D and N are important in the upper register
+  - Despite Todi-like swaras, the mood is much lighter than Todi
+- **Similar Raagas**:
+  - **Todi**: Uses same komal Ga + tivra Ma but adds komal Re and komal Dha
+  - **Multani**: Also afternoon, Todi family, but with komal Re and komal Dha
+  - **Bhimpalasi**: Same time period but Kafi thaat

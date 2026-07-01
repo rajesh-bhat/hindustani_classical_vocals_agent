@@ -1,0 +1,25 @@
+# Raag Shree
+- **Thaat**: Purvi
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Re (komal, but some say Ma)
+- **Samvadi**: Pa
+- **Time**: Late evening — Sandhi Prakash to 1st prahar of night (6 PM – 9 PM)
+- **Rasa/Mood**: Grandeur, devotion, auspiciousness, majestic gravity
+- **Swaras Used**: S r G M P d N (komal Re, tivra Ma, komal Dha)
+- **Varjit**: None
+- **Varjit**: Ga and Dha omitted in aaroh
+- **Aaroh**: S r M P N S' (Ga and Dha skipped)
+- **Avaroh**: S' N d P, M P G, M r S
+- **Pakad**: r G, M P d P, M P G, M r S
+- **Chalan Rules**:
+  - Grammy of Indian classical music — extremely regal and majestic
+  - Same swaras as Puriya Dhanashri but completely different personality
+  - Pa is given more weight, and the interplay of M P G is central
+  - Komal Re tends toward Sa with andolan
+  - Komal Dha is used sparingly in aaroh but freely in avaroh
+  - Requires slow, deliberate elaboration — not a raaga for speed
+  - Associated with wealth and prosperity (Shree = Lakshmi)
+- **Similar Raagas**:
+  - **Puriya Dhanashri**: Same swaras, different emphasis and time
+  - **Purvi**: Same thaat, lighter treatment
+  - **Marwa**: Shares komal Re/tivra Ma but omits Pa

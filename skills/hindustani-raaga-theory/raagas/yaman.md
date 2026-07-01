@@ -1,0 +1,25 @@
+# Raag Yaman (Kalyan)
+- **Thaat**: Kalyan
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Ga (Gandhar)
+- **Samvadi**: Ni (Nishad)
+- **Time**: Evening — 1st prahar of night (6 PM – 9 PM)
+- **Rasa/Mood**: Shringara (romantic), devotional, serene grandeur
+- **Swaras Used**: S R G M P D N (all shuddha except tivra Ma)
+- **Varjit**: Pa in the Aaroh (Ascent).
+- **Aaroh**: 'N R G M D N S' (Strictly skips Pa)
+- **Avaroh**: S' N D P M G R S
+- **Pakad**: 'N R G, R G M D, N D P, M G R S
+- **Chalan Rules**:
+  - Always use tivra Ma (M), never shuddha Ma
+  - In aaroh, Sa is typically skipped — start from 'Ni of lower octave: 'N R G
+  - Ga is the most prominent swara — elongate and emphasize
+  - Ni is the resting point in uttaranga
+  - Pa is strictly omitted in the aaroh. It is only approached vakra in avaroh or resting phrases (e.g., M D P).
+  - The phrase N R G is the hallmark opening
+- **Similar Raagas**:
+  - **Yaman Kalyan**: Uses both tivra Ma AND shuddha Ma (m used subtly in avaroh)
+  - **Shuddha Kalyan**: Omits Ga and Ni (Audav)
+  - **Kamod**: Also Kalyan thaat but with distinct pakad and less emphasis on Ga
+  - **Chayanat**: Mixes Kalyan and Bilawal elements (uses both Ma variants)
+- **Notable Compositions**: "Eri Aali Piya Bin" (Bada Khayal in Vilambit Ektaal)

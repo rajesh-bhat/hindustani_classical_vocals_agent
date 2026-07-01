@@ -1,0 +1,23 @@
+# Raag Deshkar
+- **Thaat**: Bilawal
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Dha (shuddha)
+- **Samvadi**: Ga (shuddha)
+- **Time**: Morning (6 AM – 9 AM)
+- **Rasa/Mood**: Bright, uplifting, devotional, joyous
+- **Swaras Used**: S R G P D (all shuddha — same as Bhupali)
+- **Varjit**: Ma and Ni omitted
+- **Aaroh**: S R G P D S'
+- **Avaroh**: S' D P G R S
+- **Pakad**: D P G, R G P, D S' R' S', D P G R S
+- **Chalan Rules**:
+  - Same 5 notes as Bhupali but DIFFERENT emphasis
+  - Dha is the dominant swara — not Ga
+  - More emphasis on the uttaranga (upper register)
+  - Morning raaga (Bhupali is evening)
+  - The characteristic movement starts from Dha going up: D S' R' S'
+  - Phrases tend to move in the P D S' region
+- **Similar Raagas**:
+  - **Bhupali**: Same notes, different vadi (Ga vs Dha), different time
+  - **Shuddha Kalyan**: Occasionally touches Ni
+  - **Durga**: Uses S R m P D (substitutes Ma for Ga)

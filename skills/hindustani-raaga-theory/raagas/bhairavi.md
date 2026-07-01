@@ -1,0 +1,26 @@
+# Raag Bhairavi
+- **Thaat**: Bhairavi
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Morning (traditionally), but performed at ALL times as a concluding raaga
+- **Rasa/Mood**: Karuna (pathos), bhakti (devotion), shringara, complete emotional range
+- **Swaras Used**: S r g m P d n (all komal)
+- **Varjit**: None (all shuddha swaras may also appear as anya swaras for ornamentation)
+- **Aaroh**: S r g m P d n S'
+- **Avaroh**: S' n d P m g r S
+- **Pakad**: m P d P, g m g r S / S r g, m P
+- **Chalan Rules**:
+  - Known as the "Queen of Raagas" — most complete and versatile
+  - In practice, shuddha swaras (R, G, D, N, M) may appear as embellishments
+  - This is called "Sindhu Bhairavi" or "Mishra Bhairavi" when mixed swaras are used
+  - Pure Bhairavi should use only komal swaras
+  - Sa and Pa are strong resting points
+  - The mood is deeply emotional — can evoke joy, sorrow, or devotion
+  - Traditionally sung as the LAST raaga in a concert
+- **Similar Raagas**:
+  - **Sindhu Bhairavi**: Mixed Bhairavi with shuddha swaras added liberally
+  - **Bilaskhani Todi**: Very similar swara set but different chalan and emphasis
+  - **Malkauns**: Uses same komal Ga but is Audav (5-note) — no Re, Pa
+  - **Komal Rishabh Asavari**: Shares komal Re but different treatment of Ga
+- **Notable Compositions**: "Bansuri Baj Rahi" (Thumri), countless morning bhajans

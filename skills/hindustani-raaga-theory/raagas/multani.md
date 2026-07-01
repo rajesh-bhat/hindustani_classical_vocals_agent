@@ -1,0 +1,23 @@
+# Raag Multani
+- **Thaat**: Todi
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Pa
+- **Samvadi**: Sa
+- **Time**: Late afternoon (3 PM – 6 PM)
+- **Rasa/Mood**: Karuna (pathos), devotion, yearning, contemplation
+- **Swaras Used**: S r g M P d N (komal Re, komal Ga, tivra Ma, komal Dha)
+- **Varjit**: Ga and Dha omitted in aaroh
+- **Aaroh**: 'N S r M P N S' (Ga and Dha skipped; starts from lower Ni)
+- **Avaroh**: S' N d P M g r S
+- **Pakad**: r M P, N d P, M g r S
+- **Chalan Rules**:
+  - Closely related to Todi but with distinct aaroh
+  - Ga and Dha are skipped ascending — giving a leaping, dramatic quality
+  - The jump r M (komal Re to tivra Ma) in aaroh is characteristic
+  - Similarly N S' (Ni to upper Sa) has a lifting quality
+  - Afternoon raaga — distinguishes it from Todi (morning)
+  - Tivra Ma is very prominent as the vadi
+- **Similar Raagas**:
+  - **Todi**: Same swaras but Sampurna aaroh, different time
+  - **Gujari Todi**: Another Todi variant
+  - **Bhimpalasi**: Same time period but Kafi thaat, completely different swaras

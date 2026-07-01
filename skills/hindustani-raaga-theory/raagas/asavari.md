@@ -1,0 +1,25 @@
+# Raag Asavari
+- **Thaat**: Asavari
+- **Jaati**: Sampurna-Sampurna (7-7) or Audav-Sampurna
+- **Vadi**: Dha (komal)
+- **Samvadi**: Ga (komal)
+- **Time**: Late morning (9 AM – 12 PM)
+- **Rasa/Mood**: Karuna (pathos), sobriety, a quiet sadness
+- **Swaras Used**: S R g m P d n (komal Ga, komal Dha, komal Ni)
+- **Varjit**: Ga and Ni sometimes omitted in aaroh
+- **Aaroh**: S R m P d S' (Ga and Ni skipped in strict version)
+- **Avaroh**: S' n d P m g R S
+- **Pakad**: d P, m P, g R S / P d S'
+- **Chalan Rules**:
+  - Defines the Asavari thaat — the base scale
+  - Komal Ga, Dha, and Ni together create a somber mood
+  - In aaroh, Ga and Ni may be omitted (making it Audav ascending)
+  - In the full Sampurna version, all swaras appear
+  - Pa and Re are shuddha — strong and stable
+  - Komal Dha is the vadi — used with andolan
+  - The morning mood should be contemplative, not dramatic
+- **Similar Raagas**:
+  - **Jaunpuri**: Same thaat, similar swaras, but Re used more prominently
+  - **Darbari Kanada**: Same swaras but late night, heavy andolan
+  - **Komal Rishabh Asavari**: Adds komal Re to Asavari
+  - **Bhairavi**: All komal — more intense than Asavari

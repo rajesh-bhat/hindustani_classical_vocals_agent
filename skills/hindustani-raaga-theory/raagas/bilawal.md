@@ -1,0 +1,25 @@
+# Raag Bilawal
+- **Thaat**: Bilawal
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Dha (shuddha)
+- **Samvadi**: Ga (shuddha)
+- **Time**: Morning — 1st prahar (6 AM – 9 AM)
+- **Rasa/Mood**: Peaceful, bright, pure, morning freshness, devotional
+- **Swaras Used**: S R G m P D N (all shuddha — equivalent to Western C major)
+- **Varjit**: None — uses all 7 swaras
+- **Aaroh**: S R G m P D N S'
+- **Avaroh**: S' N D P m G R S
+- **Pakad**: G R S, R G m P, D N D P, m G R S
+- **Chalan Rules**:
+  - The "natural" scale — all shuddha swaras, shuddha Ma
+  - Despite simplicity, Bilawal demands careful treatment to distinguish from plain scale
+  - The phrase G R S (descending from Ga) often starts elaboration
+  - Dha is the anchor note and resting point
+  - Ma is always shuddha (never tivra)
+  - Morning raaga — should evoke morning purity
+  - Should NOT sound like Alhaiya Bilawal (a related but distinct raaga)
+- **Similar Raagas**:
+  - **Alaiya Bilawal**: More ornate version of Bilawal with specific gamakas
+  - **Kukubh Bilawal**: Another Bilawal variant
+  - **Yaman**: Same notes but with tivra Ma — evening counterpart
+  - **Pahadi**: Folk-derived raaga using similar scale

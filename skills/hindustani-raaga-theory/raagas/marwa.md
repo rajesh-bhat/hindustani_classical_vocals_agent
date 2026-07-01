@@ -1,0 +1,26 @@
+# Raag Marwa
+- **Thaat**: Marwa
+- **Jaati**: Shadav-Shadav (6-6)
+- **Vadi**: Re (komal)
+- **Samvadi**: Dha (shuddha)
+- **Time**: Sunset — Sandhi Prakash (5 PM – 7 PM)
+- **Rasa/Mood**: Bhayanak (fearfulness), restlessness, anxiety, tension, unsettled
+- **Swaras Used**: S r G M D N (komal Re, tivra Ma)
+- **Varjit**: Pa (omitted in both aaroh and avaroh)
+- **Aaroh**: S r G M D N S' (no Pa)
+- **Avaroh**: S' N D M G r S (no Pa)
+- **Pakad**: r G, M D N D, G M r G r S / S N D
+- **Chalan Rules**:
+  - Pa is COMPLETELY absent — this creates the characteristic restless quality
+  - Komal Re is used with heavy andolan (oscillation) — the defining feature
+  - The raaga refuses to resolve on Sa — it constantly gravitates toward komal Re and Dha
+  - Sa is deliberately avoided as a resting place; Dha replaces it as the "home" note
+  - Upper Sa is used but immediately turns to Ni or Re
+  - The tension between komal Re and shuddha Ga is central to the mood
+  - Night raagas should avoid this — strictly a sunset raaga
+- **Similar Raagas**:
+  - **Puriya**: Also Marwa thaat, also omits Pa, but Ni is the vadi (not Re)
+  - **Sohini**: Also Marwa thaat but lighter, with different emphasis
+  - **Puriya Dhanashri**: Includes Pa (Purvi thaat) with komal Dha
+  - **Lalit**: Uses both Ma variants + komal Re but includes Pa
+- **Notable Compositions**: "Sakhi Ri More Balma" (Vilambit)

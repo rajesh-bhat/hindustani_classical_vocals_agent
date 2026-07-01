@@ -1,0 +1,25 @@
+# Raag Todi (Miyan ki Todi)
+- **Thaat**: Todi
+- **Jaati**: Shadav-Sampurna (6-7) — Pa often omitted in aaroh
+- **Vadi**: Dha (komal)
+- **Samvadi**: Ga (komal)
+- **Time**: Late morning (9 AM – 12 PM)
+- **Rasa/Mood**: Karuna (pathos), viraha (longing), gravity, introspection
+- **Swaras Used**: S r g M P d N (komal Re, komal Ga, tivra Ma, komal Dha)
+- **Varjit**: None — all 7 swaras used
+- **Aaroh**: S r g M P d N S' (some say: S r g, M g, M d N S')
+- **Avaroh**: S' N d P, M g r S
+- **Pakad**: r g M g / r S, d M g, M d N S'
+- **Chalan Rules**:
+  - The combination of komal Re, komal Ga with tivra Ma creates intense emotion
+  - Ga is oscillated (andolan) — this gives Todi its characteristic "cry"
+  - In aaroh, Re is often skipped or treated briefly
+  - The phrase d N S' R' S' (ascending to upper Sa) is very characteristic
+  - Pa is relatively weak — approached from Ma via Dha: M d P
+  - Dha is the resting swara with heavy oscillation
+- **Similar Raagas**:
+  - **Gujari Todi**: More austere — deemphasizes Pa, uses Re more freely
+  - **Bilaskhani Todi**: Uses shuddha Ni instead of komal Ni
+  - **Multani**: Related but with distinct aaroh (skips Ga and Dha going up)
+  - **Lachari Todi**: Lighter, more playful approach to Todi swaras
+- **Notable Compositions**: "Ab To Hare" (Vilambit Jhaptaal)

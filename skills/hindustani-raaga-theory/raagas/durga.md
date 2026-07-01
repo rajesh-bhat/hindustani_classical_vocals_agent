@@ -1,0 +1,23 @@
+# Raag Durga
+- **Thaat**: Bilawal
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late evening — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Devotional, strength, simplicity, purity
+- **Swaras Used**: S R m P D (all shuddha)
+- **Varjit**: Ga and Ni omitted
+- **Aaroh**: S R m P D S'
+- **Avaroh**: S' D P m R S
+- **Pakad**: R m P D P, m R S
+- **Chalan Rules**:
+  - Simple pentatonic with shuddha Ma (not tivra)
+  - Ga and Ni are strictly excluded
+  - Ma and Pa are strong notes in this raaga
+  - Re is the foundation (vadi) — use with emphasis
+  - The simplicity makes it accessible but nuanced performance requires skill
+  - Can also be classified as Khamaj thaat in some traditions
+- **Similar Raagas**:
+  - **Bhupali**: Also pentatonic but uses Ga instead of Ma: S R G P D
+  - **Shuddha Sarang**: Uses shuddha Ma and similar notes but with Re treatment
+  - **Pahadi**: Uses more notes but shares the folk, devotional quality

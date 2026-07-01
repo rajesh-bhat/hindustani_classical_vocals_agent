@@ -1,0 +1,25 @@
+# Raag Kafi
+- **Thaat**: Kafi
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Pa
+- **Samvadi**: Sa
+- **Time**: Late night (9 PM – 12 AM), also associated with Holi/spring
+- **Rasa/Mood**: Romance, folk joy, spring warmth, playfulness
+- **Swaras Used**: S R g m P D n (komal Ga, komal Ni)
+- **Varjit**: None
+- **Aaroh**: S R g m P D n S'
+- **Avaroh**: S' n D P m g R S
+- **Pakad**: m P D, n D P, m g R S
+- **Chalan Rules**:
+  - The base raaga of Kafi thaat — defines the scale
+  - Komal Ga and komal Ni create the Kafi character
+  - Pa is the anchor (vadi)
+  - Re and Dha are shuddha — important distinction from Asavari/Bhairavi
+  - Very popular for folk and semi-classical music
+  - Often associated with Holi festival songs
+  - Thumri and dadra compositions abound in Kafi
+- **Similar Raagas**:
+  - **Bhimpalasi**: Derived from Kafi, afternoon, skips Re/Dha in aaroh
+  - **Bageshri**: Also Kafi thaat but night raaga, different pakad
+  - **Patdeep**: Kafi derivative, afternoon
+  - **Asavari**: Also uses komal Ga but adds komal Dha (not shuddha)

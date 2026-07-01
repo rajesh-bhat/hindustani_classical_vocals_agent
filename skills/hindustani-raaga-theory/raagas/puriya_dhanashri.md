@@ -1,0 +1,24 @@
+# Raag Puriya Dhanashri
+- **Thaat**: Purvi
+- **Jaati**: Shadav-Sampurna (6-7)
+- **Vadi**: Pa
+- **Samvadi**: Re (komal)
+- **Time**: Sunset — Sandhi Prakash (5 PM – 7 PM)
+- **Rasa/Mood**: Devotional, prayerful, contemplative, twilight serenity
+- **Swaras Used**: S r G M P d N (komal Re, tivra Ma, komal Dha)
+- **Varjit**: None — all 7 swaras used
+- **Aaroh**: 'N r G M P d N S'
+- **Avaroh**: S' N d P M G r S
+- **Pakad**: 'N r G, M P d P, M G r S
+- **Chalan Rules**:
+  - Combines elements of Puriya (komal Re, tivra Ma) with Dhanashri (Pa, komal Dha)
+  - Pa is the vadi — strong and prominent (unlike Puriya/Marwa which omit Pa)
+  - The sunrise approach from 'Ni below is characteristic: 'N r G
+  - Komal Re gets andolan
+  - Pa acts as the anchor that Puriya and Marwa lack
+  - Must maintain the twilight (sandhi prakash) mood
+- **Similar Raagas**:
+  - **Puriya**: Same komal Re + tivra Ma but OMITS Pa
+  - **Marwa**: Also omits Pa, different vadi
+  - **Shree**: Same swaras as Puriya Dhanashri but late night, different mood and chalan
+  - **Purvi**: Same thaat, Ga is vadi

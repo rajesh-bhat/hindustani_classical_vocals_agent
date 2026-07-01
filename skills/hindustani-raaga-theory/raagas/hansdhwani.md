@@ -1,0 +1,24 @@
+# Raag Hansdhwani
+- **Thaat**: Bilawal
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Pa
+- **Samvadi**: Re (shuddha)
+- **Time**: Evening (flexible — can be sung at many times)
+- **Rasa/Mood**: Joy, celebration, auspiciousness, brightness
+- **Swaras Used**: S R G P N (all shuddha)
+- **Varjit**: Ma and Dha omitted
+- **Aaroh**: S R G P N S'
+- **Avaroh**: S' N P G R S
+- **Pakad**: G R S N' S, R G P N S'
+- **Chalan Rules**:
+  - Light, bright, celebratory pentatonic raaga
+  - No Ma or Dha — creates an open, airy sound
+  - Ga and Ni are the primary notes
+  - Very popular for auspicious occasions (concerts, weddings)
+  - Originally a Carnatic raaga adapted into Hindustani tradition
+  - Simple but effective — beautiful in fast taans
+  - Often used as an opening raaga for concerts
+- **Similar Raagas**:
+  - **Bhupali**: Also pentatonic but uses Dha instead of Ni: S R G P D
+  - **Deshkar**: Same notes as Bhupali, different emphasis
+  - **Shuddha Kalyan**: Similar notes but adds Ma and sometimes Dha

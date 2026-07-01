@@ -1,0 +1,24 @@
+# Raag Brindavani Sarang
+- **Thaat**: Kafi
+- **Jaati**: Audav-Audav or Audav-Shadav (5-5 or 5-6)
+- **Vadi**: Pa
+- **Samvadi**: Re (shuddha)
+- **Time**: Late morning to early afternoon (10 AM – 2 PM)
+- **Rasa/Mood**: Joy, brightness, afternoon energy, longing
+- **Swaras Used**: S R m P n (komal Ni; Ga and Dha omitted)
+- **Varjit**: Ga and Dha omitted
+- **Aaroh**: S R m P n S'
+- **Avaroh**: S' n P m R S
+- **Pakad**: S R m P, n P m R S
+- **Chalan Rules**:
+  - Simple but beautiful midday raaga
+  - Only 5 notes: S R m P n — no Ga or Dha
+  - Ma-Pa oscillation (m P m P) is characteristic
+  - Pa is the soul of this raaga
+  - Komal Ni (n) is used gently as a leading tone
+  - The ascending phrase m P n S' has a lifting quality
+  - Often associated with the brightness of midday sun
+- **Similar Raagas**:
+  - **Shuddha Sarang**: Uses more notes including Ga
+  - **Megh**: Also pentatonic but deeper, monsoon mood
+  - **Sarang family**: Multiple Sarang variants exist (Miyan ki Sarang, etc.)

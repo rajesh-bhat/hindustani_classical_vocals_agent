@@ -1,0 +1,25 @@
+# Raag Ahir Bhairav
+- **Thaat**: Bhairav (mixed — combines Bhairav with Kafi elements)
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Morning (7 AM – 10 AM)
+- **Rasa/Mood**: Bhakti (devotion), peace, pastoral beauty, folk charm
+- **Swaras Used**: S r G m P D n (komal Re from Bhairav + komal Ni from Kafi)
+- **Varjit**: None
+- **Aaroh**: S r G m P D n S'
+- **Avaroh**: S' n D P m G r S
+- **Pakad**: G m P D, n D P, m G r S
+- **Chalan Rules**:
+  - Unique mixture: komal Re (from Bhairav) + komal Ni (from Kafi)
+  - shuddha Ga and shuddha Dha distinguish it from pure Bhairav
+  - The komal Re with shuddha Ga combination is the essence
+  - Ma and Pa are strong, steady notes
+  - Folk/pastoral quality — associated with rural morning soundscapes
+  - Very popular for morning devotional songs (bhajans)
+  - The phrase G m P D is uplifting and warm
+- **Similar Raagas**:
+  - **Bhairav**: Uses komal Re + komal Dha (not komal Ni)
+  - **Jogiya**: Bhairav variant with specific phrase structure
+  - **Nat Bhairav**: Mixes Bhairav with Bilawal
+  - **Bairagi**: Simplified Bhairav (pentatonic)

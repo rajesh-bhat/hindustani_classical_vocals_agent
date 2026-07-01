@@ -1,0 +1,23 @@
+# Raag Patdeep
+- **Thaat**: Kafi
+- **Jaati**: Shadav-Sampurna (6-7)
+- **Vadi**: Pa
+- **Samvadi**: Sa
+- **Time**: Late afternoon (3 PM – 6 PM)
+- **Rasa/Mood**: Tender, pensive, gentle beauty, afternoon tranquility
+- **Swaras Used**: S R g m P D n (komal Ga, komal Ni)
+- **Varjit**: Dha omitted in aaroh
+- **Aaroh**: S R g m P n S' (Dha skipped)
+- **Avaroh**: S' n D P m g R S
+- **Pakad**: g m P, n D P, m g R S
+- **Chalan Rules**:
+  - Afternoon raaga with a sweet, gentle quality
+  - Dha is omitted in aaroh but appears in avaroh
+  - The phrase P n S' (going from Pa to komal Ni to upper Sa) is characteristic
+  - Similar swara set to Bhimpalasi but different skip pattern and mood
+  - Pa is the anchor note
+  - Komal Ga with slight andolan
+- **Similar Raagas**:
+  - **Bhimpalasi**: Same time, same thaat, but skips Re/Dha in aaroh (not Dha alone)
+  - **Bageshri**: Same swaras but late night, different pakad
+  - **Dhanashri**: Also Kafi derivative with afternoon quality

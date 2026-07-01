@@ -1,0 +1,24 @@
+# Raag Kedar
+- **Thaat**: Kalyan
+- **Jaati**: Shadav-Sampurna (6-7)
+- **Vadi**: Ma (shuddha Ma is predominant, tivra Ma also used)
+- **Samvadi**: Sa
+- **Time**: Evening — 1st prahar of night (6 PM – 9 PM)
+- **Rasa/Mood**: Bhakti (devotion), shringara, peace, serious devotional
+- **Swaras Used**: S m M P D N (aaroh), S N D P M m G R S (avaroh)
+- **Varjit**: Re and Ga omitted in aaroh
+- **Aaroh**: S m M P D N S'
+- **Avaroh**: S' N D P, M m P, D m G R S
+- **Pakad**: S m M P, M m P D, m G R S
+- **Chalan Rules**:
+  - Uses BOTH shuddha Ma and tivra Ma — this is the defining feature
+  - The sequence m M P (shuddha Ma → tivra Ma → Pa) is quintessential Kedar
+  - Re and Ga are used only in avaroh, never in aaroh
+  - Pa is an extremely important note
+  - The "zigzag" movement around both Ma variants creates devotional mood
+  - Often associated with Lord Shiva and temple music
+- **Similar Raagas**:
+  - **Bihag**: Also uses both Ma variants but different emphasis
+  - **Hameer**: Also Kalyan thaat but Sampurna with different chalan
+  - **Yaman**: Only tivra Ma — the pure Kalyan base
+  - **Kamod**: Kalyan thaat with distinct pakad emphasizing Pa

@@ -1,0 +1,24 @@
+# Raag Chandrakauns
+- **Thaat**: Kafi (debated — sometimes classified independently)
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late night (12 AM – 3 AM)
+- **Rasa/Mood**: Mystical, moonlit, romantic, mysterious
+- **Swaras Used**: S g m d N (komal Ga, komal Dha, SHUDDHA Ni)
+- **Varjit**: Re and Pa omitted
+- **Aaroh**: S g m d N S'
+- **Avaroh**: S' N d m g S
+- **Pakad**: g m d, N d m g S
+- **Chalan Rules**:
+  - The KEY difference from Malkauns: Chandrakauns uses SHUDDHA Ni (N), Malkauns uses KOMAL Ni (n)
+  - Swaras: Chandrakauns = S g m d N; Malkauns = S g m d n
+  - Chandrakauns emphasizes Dha while Malkauns emphasizes Ma
+  - Chandrakauns has a more romantic, moonlit quality
+  - Malkauns is more grave, meditative, powerful
+  - Komal Ga with andolan
+  - Associated with moonlight — the name means "moonbeam"
+- **Similar Raagas**:
+  - **Malkauns**: SAME notes but different emphasis (Ma vadi) and mood (darker)
+  - **Bhairavi**: Sampurna version includes Re and Pa
+  - **Hindol**: Also pentatonic but uses shuddha swaras (S G M D N)

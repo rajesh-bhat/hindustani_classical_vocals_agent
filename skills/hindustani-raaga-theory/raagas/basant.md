@@ -1,0 +1,24 @@
+# Raag Basant
+- **Thaat**: Purvi
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Sa
+- **Samvadi**: Pa
+- **Time**: Spring season (Basant Panchami onwards) — night raagas, pre-dawn
+- **Rasa/Mood**: Spring joy, celebration, festive, colorful
+- **Swaras Used**: S r G M P d N (komal Re, tivra Ma, komal Dha)
+- **Varjit**: Ga and Ni sometimes omitted in aaroh
+- **Aaroh**: S G M d N S' (Re and Pa skipped)
+- **Avaroh**: S' N d P M G M G r S
+- **Pakad**: S r M P, d N S', N d P, M G r S
+- **Chalan Rules**:
+  - Seasonal raaga — associated with spring/Holi festival
+  - Yellow color association (Basant = spring)
+  - Komal Re and komal Dha with tivra Ma create Purvi character
+  - The ascending skip (S r M P) avoids Ga going up
+  - Festive and celebratory mood
+  - Often paired with Bahar to create Basant Bahar
+- **Similar Raagas**:
+  - **Purvi**: Same thaat, similar swaras but different mood
+  - **Shree**: Same swaras but evening raaga, majestic
+  - **Basant Bahar**: Combination raaga mixing Basant and Bahar
+  - **Hindol**: Also pentatonic spring raaga but completely different swaras

@@ -1,0 +1,24 @@
+# Raag Sohini
+- **Thaat**: Marwa
+- **Jaati**: Audav-Shadav (5-6)
+- **Vadi**: Dha (shuddha)
+- **Samvadi**: Ga (shuddha)
+- **Time**: Late night to pre-dawn (12 AM – 6 AM)
+- **Rasa/Mood**: Delicate, feminine beauty, tender, exquisite
+- **Swaras Used**: S r G M D N (komal Re, tivra Ma — no Pa)
+- **Varjit**: Pa is omitted (like Marwa and Puriya)
+- **Aaroh**: S G M D N S' (komal Re skipped ascending)
+- **Avaroh**: S' N D G M G r S
+- **Pakad**: G M D N S', N D M G, r G r S
+- **Chalan Rules**:
+  - Light, delicate version of the Marwa thaat raagas
+  - Like Marwa and Puriya, Pa is omitted
+  - But unlike Marwa's restlessness, Sohini is tender and beautiful
+  - Dha is the anchor note — the raaga rests on Dha
+  - The upper register (D N S') is where Sohini blossoms
+  - Komal Re is used gently, not with heavy andolan
+  - Associated with feminine beauty and delicate emotion
+- **Similar Raagas**:
+  - **Marwa**: Same thaat, same Pa omission, but heavier and more restless
+  - **Puriya**: Same swaras but Ni is vadi, different gravity
+  - **Yaman**: Kalyan thaat includes Pa, completely different feel

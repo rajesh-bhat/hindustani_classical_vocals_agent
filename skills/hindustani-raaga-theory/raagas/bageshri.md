@@ -1,0 +1,24 @@
+# Raag Bageshri
+- **Thaat**: Kafi
+- **Jaati**: Audav-Sampurna (5-7) or Shadav-Sampurna
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late night — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Shringara (romantic), karuna (pathos), longing, tenderness
+- **Swaras Used**: S R g m P D n (komal Ga, komal Ni)
+- **Varjit**: Re and Pa skipped in aaroh
+- **Aaroh**: S g m D n S' (Re and Pa omitted)
+- **Avaroh**: S' n D P m g R S
+- **Pakad**: m D n D P, m g R S / S g m
+- **Chalan Rules**:
+  - Komal Ga with andolan is the soul of this raaga
+  - In aaroh, Re and Pa are skipped — go directly Sa to komal Ga, then Ma to Dha: S g m D
+  - The phrase m D n D P is very characteristic
+  - Ma is the anchor — most phrases revolve around it
+  - Sa is the resolution point (samvadi)
+  - Re is used sparingly but with beauty
+- **Similar Raagas**:
+  - **Rageshri**: Also Kafi thaat, uses similar swaras but with tivra Ma
+  - **Jhinjhoti**: Also Khamaj thaat night raaga but uses shuddha Ga
+  - **Pilu**: Uses similar notes but is a lighter, thumri raaga
+  - **Malkauns**: Shares komal Ga but is pentatonic and much deeper

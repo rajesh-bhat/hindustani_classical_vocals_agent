@@ -1,0 +1,26 @@
+# Raag Malkauns (Malkosh)
+- **Thaat**: Bhairavi
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Late night — 3rd prahar (12 AM – 3 AM)
+- **Rasa/Mood**: Gambhir (grave), shanta (peaceful), mystical, meditative, powerful
+- **Swaras Used**: S g m d n (komal Ga, komal Dha, komal Ni)
+- **Varjit**: Re and Pa are COMPLETELY omitted
+- **Aaroh**: S g m d n S'
+- **Avaroh**: S' n d m g S
+- **Pakad**: m d n d, m g S / g m d, S' n d
+- **Chalan Rules**:
+  - Only 5 swaras — extremely powerful despite (because of) simplicity
+  - Re and Pa are strictly forbidden — their use destroys the raaga
+  - All variable swaras are komal — creates a deep, dark, intense atmosphere
+  - Sa and Ma are the two pillars of the raaga
+  - Komal Ga needs andolan
+  - The absence of Pa gives it an otherworldly quality
+  - Associated with late night meditation and powerful emotional depth
+  - Very popular for devotional/spiritual compositions
+- **Similar Raagas**:
+  - **Chandrakauns**: Also pentatonic (S g m d n) but uses Pa and different chalan
+  - **Bhairavi**: Uses same komal notes but is Sampurna (includes Re, Pa)
+  - **Hindol**: Also pentatonic but uses shuddha swaras (S G M D N)
+  - **Dhani**: Uses S g m P n — adds Pa, removes Dha

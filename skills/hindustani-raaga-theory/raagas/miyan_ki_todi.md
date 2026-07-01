@@ -1,0 +1,24 @@
+# Raag Miyan ki Todi
+- **Thaat**: Todi
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Dha (komal)
+- **Samvadi**: Ga (komal)
+- **Time**: Late morning (9 AM – 12 PM)
+- **Rasa/Mood**: Deep pathos, yearning, serious, meditative
+- **Swaras Used**: S r g M P d N (komal Re, komal Ga, tivra Ma, komal Dha)
+- **Varjit**: None
+- **Aaroh**: S r g, M g, M d N S'
+- **Avaroh**: S' N d P, M g, r S
+- **Pakad**: r g M g, r S / M d N S', d P M g r S
+- **Chalan Rules**:
+  - This IS the standard "Todi" — named after Mian Tansen
+  - Ga and Dha are used with deep andolan
+  - In aaroh, a characteristic vakra (zigzag) movement: M g M d
+  - Pa is weak — not emphasized, approached via Dha: d P
+  - The intensity comes from the komal Re + komal Ga + tivra Ma combination
+  - Must be rendered slowly to bring out the depth
+- **Similar Raagas**:
+  - **Gujari Todi**: More emphasis on Re, slightly different chalan
+  - **Bilaskhani Todi**: Uses komal Ni instead of shuddha Ni
+  - **Multani**: Related but with different aaroh (skips notes ascending)
+  - See also [todi.md](todi.md) for the generic Todi entry

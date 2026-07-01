@@ -1,0 +1,24 @@
+# Raag Tilak Kamod
+- **Thaat**: Khamaj (some say Kalyan)
+- **Jaati**: Shadav-Sampurna (6-7)
+- **Vadi**: Re (shuddha)
+- **Samvadi**: Pa
+- **Time**: Late evening — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Shringara (romantic), joy, sweetness, light classical elegance
+- **Swaras Used**: S R G m P D N n (uses both komal and shuddha Ni)
+- **Varjit**: Ga omitted in aaroh (some traditions include it)
+- **Aaroh**: S R m P D N S' (Ga skipped)
+- **Avaroh**: S' N D P m G R S (uses shuddha Ni, shuddha Ga)
+- **Pakad**: R m P, D N D P, m G R S
+- **Chalan Rules**:
+  - Sweet, romantic night raaga
+  - Uses shuddha Ni (N) predominantly — komal Ni (n) appears occasionally
+  - The phrase P D N D P is quintessential
+  - Re and Pa are strong anchor points
+  - Ga is handled carefully — mainly in avaroh and specific phrases
+  - Often used for thumri and light classical pieces
+- **Similar Raagas**:
+  - **Des**: Also has both Ni variants and Khamaj flavor
+  - **Kamod**: Kalyan thaat variant with tivra Ma
+  - **Jhinjhoti**: Also Khamaj group, lighter
+  - **Khamaj**: Parent thaat

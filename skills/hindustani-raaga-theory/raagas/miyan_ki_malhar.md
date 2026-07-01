@@ -1,0 +1,25 @@
+# Raag Miyan ki Malhar
+- **Thaat**: Kafi
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Rainy season (monsoon) — can be sung any time during monsoon
+- **Rasa/Mood**: Joy of rain, romance, longing, monsoon ecstasy
+- **Swaras Used**: S R g m P, n N D n P (uses BOTH komal and shuddha Ni)
+- **Varjit**: None but Ga (komal and shuddha) used variably
+- **Aaroh**: S R m P n D N S'
+- **Avaroh**: S' N D n P, m P g m R S
+- **Pakad**: m P n D, n P, m P g m R S
+- **Chalan Rules**:
+  - Associated with Mian Tansen — "the raaga that brings rain"
+  - The interplay of BOTH Ni (komal n and shuddha N) is the hallmark
+  - The phrase n D N (komal Ni → Dha → shuddha Ni) is quintessential
+  - Ma and Pa are strong anchors
+  - m P (Ma to Pa repeated) is a characteristic oscillation
+  - Must evoke the feeling of monsoon — romantic, lush, powerful
+  - Re is shuddha; Ga can be both komal and shuddha contextually
+- **Similar Raagas**:
+  - **Megh**: Also a monsoon raaga but simpler, more restrained
+  - **Gaud Malhar**: Different Malhar variant with Bilawal/Kalyan elements
+  - **Desh Malhar**: Lighter Malhar mixing Des and Malhar
+  - **Surdasi Malhar**: Another Malhar variant

@@ -1,0 +1,25 @@
+# Raag Bihag
+- **Thaat**: Bilawal (with tivra Ma influence from Kalyan)
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Ma (shuddha, but tivra Ma also appears)
+- **Samvadi**: Sa
+- **Time**: Late evening — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Shringara (romantic), gentle, soothing, tender
+- **Swaras Used**: S G m M P N S' / S' N D P M m G R S (both Ma variants)
+- **Varjit**: Re and Dha omitted in aaroh
+- **Aaroh**: 'N S G m P N S' (Re, Dha skipped; starts from lower Ni)
+- **Avaroh**: S' N D P m G R S
+- **Pakad**: G m P, N D P, m G R S
+- **Chalan Rules**:
+  - Uses BOTH shuddha Ma (m) and tivra Ma (M)
+  - In aaroh: mainly shuddha Ma (m)
+  - In avaroh and phrases: tivra Ma appears in P M m G
+  - The interplay of both Ma variants gives Bihag its sweetness
+  - Re and Dha are skipped in aaroh but appear in avaroh
+  - Ga is important — approached from Sa directly: S G
+  - Ni is used in aaroh approaching upper Sa
+- **Similar Raagas**:
+  - **Maru Bihag**: Heavier use of tivra Ma, more Kalyan-leaning
+  - **Yaman**: Pure Kalyan with only tivra Ma
+  - **Kedar**: Also uses both Ma variants but different treatment
+  - **Hansdhwani**: Also skips Re/Dha in aaroh but is purely pentatonic

@@ -1,0 +1,24 @@
+# Raag Megh (Megh Malhar)
+- **Thaat**: Kafi
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Ma (shuddha)
+- **Samvadi**: Sa
+- **Time**: Monsoon season — associated with rain clouds
+- **Rasa/Mood**: Majestic, deep, the gathering of rain clouds, gravity
+- **Swaras Used**: S R g m P D n (komal Ga, komal Ni)
+- **Varjit**: Ga and Ni omitted in aaroh
+- **Aaroh**: S R m P D S' (no Ga, no Ni)
+- **Avaroh**: S' n D P m g R S
+- **Pakad**: R m P D S', n D P, m g R S
+- **Chalan Rules**:
+  - Deep, weighty raaga associated with thunder clouds
+  - Ga and Ni omitted in aaroh — creates a powerful, sparse ascent
+  - Komal Ga appears only in avaroh with andolan
+  - Pa and Dha are strong swaras
+  - The phrase m P D S' (ascending without Ni) is very characteristic
+  - Must feel heavy and powerful — like approaching storm clouds
+  - Simpler than Miyan ki Malhar but equally evocative
+- **Similar Raagas**:
+  - **Miyan ki Malhar**: More complex monsoon raaga with both Ni variants
+  - **Brindavani Sarang**: Similar Audav approach but afternoon/lighter
+  - **Bhimpalasi**: Same skip pattern (Re/Dha omitted in aaroh) but different notes

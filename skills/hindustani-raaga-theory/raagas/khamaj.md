@@ -1,0 +1,24 @@
+# Raag Khamaj
+- **Thaat**: Khamaj
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Ga (shuddha)
+- **Samvadi**: Ni (komal)
+- **Time**: Late night — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Shringara (romantic), joy, lightheartedness, festive
+- **Swaras Used**: S R G m P D n N (both komal and shuddha Ni)
+- **Varjit**: None
+- **Aaroh**: S G m P D N S' (shuddha Ni ascending)
+- **Avaroh**: S' n D P m G R S (komal Ni descending)
+- **Pakad**: G m P, D n D P, m G R S
+- **Chalan Rules**:
+  - Uses BOTH komal Ni (n) in avaroh and shuddha Ni (N) in aaroh
+  - This Ni alternation is the signature of Khamaj
+  - Sa is sometimes skipped in aaroh (starting from Ga)
+  - Very popular thaat for light classical music (thumri, dadra, ghazal)
+  - Ga is the dominant swara
+  - Bright, romantic mood — one of the most beloved night raagas
+- **Similar Raagas**:
+  - **Des**: Also uses both Ni variants, same thaat
+  - **Tilak Kamod**: Similar but with Re emphasis
+  - **Jhinjhoti**: Also Khamaj family but lighter
+  - **Bilawal**: Same notes but with shuddha Ni only — morning raaga

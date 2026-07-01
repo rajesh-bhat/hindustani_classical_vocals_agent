@@ -1,0 +1,26 @@
+# Raag Lalit
+- **Thaat**: Marwa (some say Purvi — uses elements of both)
+- **Jaati**: Shadav-Shadav (6-6)
+- **Vadi**: Ma (shuddha and tivra — both used)
+- **Samvadi**: Sa
+- **Time**: Pre-dawn — last prahar of night (3 AM – 6 AM)
+- **Rasa/Mood**: Mystical, otherworldly, pre-dawn devotion, divine beauty
+- **Swaras Used**: S r g M m P d N (komal Re, komal Ga, BOTH Ma variants, komal Dha)
+- **Varjit**: Pa is very weak — some traditions omit it or use it sparingly
+- **Aaroh**: 'N r g M g, M d N S'
+- **Avaroh**: S' N d M d M m G m G r S
+- **Pakad**: m r S, S r g, M g, m g M d N
+- **Chalan Rules**:
+  - One of the most complex and beautiful raagas
+  - Uses BOTH shuddha Ma (m) and tivra Ma (M) — central to its identity
+  - Also uses komal Re, komal Ga, and komal Dha
+  - Pa is either omitted entirely or touched very lightly
+  - The interplay of both Ma variants with komal Ga creates magical phrases
+  - The phrase m r S (falling to Sa through shuddha Ma and komal Re) is essential
+  - Pre-dawn mood — mystical, searching, spiritual
+  - The zigzag movement g M g (through tivra Ma and back) is characteristic
+- **Similar Raagas**:
+  - **Marwa**: Same komal Re/tivra Ma but no komal Ga, no shuddha Ma
+  - **Puriya**: Also uses komal Re/tivra Ma but simpler structure
+  - **Todi**: Uses komal Ga/komal Re/tivra Ma but no shuddha Ma
+  - **Basant**: Also pre-dawn, uses tivra Ma but different mood

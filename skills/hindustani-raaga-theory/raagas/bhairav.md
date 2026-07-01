@@ -1,0 +1,25 @@
+# Raag Bhairav
+- **Thaat**: Bhairav
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Dha (komal)
+- **Samvadi**: Re (komal)
+- **Time**: Morning — Sandhi Prakash (dawn, 6 AM – 9 AM)
+- **Rasa/Mood**: Bhakti (devotion), solemnity, gravity, awe
+- **Swaras Used**: S r G m P d N (komal Re, komal Dha)
+- **Varjit**: None — uses all 7 swaras
+- **Aaroh**: S r G m P d N S'
+- **Avaroh**: S' N d P m G r S
+- **Pakad**: G m d N d P, m G r S, r G / S
+- **Chalan Rules**:
+  - Komal Re and komal Dha are used with andolan (oscillation/gamak)
+  - Ga and Ni get emphasis in upper register
+  - The juxtaposition of komal Re with shuddha Ga creates the distinctive Bhairav feel
+  - Pa is a strong resting point in the middle register
+  - Do NOT confuse with Bhairavi — Bhairav has shuddha Ga and shuddha Ni
+- **Similar Raagas**:
+  - **Ahir Bhairav**: Bhairav base + shuddha Re and komal Ga in some phrases
+  - **Bairagi Bhairav**: Omits Ga and Ni (Audav), only uses S r m P d
+  - **Nat Bhairav**: Mixes Bhairav and Bilawal (uses both komal and shuddha Re/Dha)
+  - **Jogiya**: Bhairav with more emphasis on Ma and less on Ga
+  - **Kalingada**: Bhairav variant with specific Re-usage rules
+- **Notable Compositions**: "Bahut Din Beete" (Vilambit Teental)

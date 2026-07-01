@@ -1,0 +1,24 @@
+# Raag Des
+- **Thaat**: Khamaj
+- **Jaati**: Audav-Sampurna (5-7)
+- **Vadi**: Re (shuddha)
+- **Samvadi**: Pa
+- **Time**: Late night — 2nd prahar of night (9 PM – 12 AM)
+- **Rasa/Mood**: Shringara (romantic), patriotic, uplifting, light classical
+- **Swaras Used**: S R G m P D n N (uses BOTH komal Ni and shuddha Ni)
+- **Varjit**: None (but shuddha Ni used specifically in aaroh)
+- **Aaroh**: S R G m P D N S' (shuddha Ni ascending)
+- **Avaroh**: S' n D P m G R S (komal Ni descending)
+- **Pakad**: R m P, D n D P, m G R S
+- **Chalan Rules**:
+  - Uses shuddha Ni (N) in aaroh and komal Ni (n) in avaroh — this is the hallmark
+  - The switch between N and n gives Des its distinctive character
+  - Pa and Re are strong resting points
+  - Associated with the monsoon and romantic poetry
+  - Very melodious and accessible — used in countless film songs
+  - Light classical treatment is common (thumri, dadra)
+- **Similar Raagas**:
+  - **Khamaj**: Parent thaat — uses only komal Ni
+  - **Tilak Kamod**: Similarly uses both Ni variants but different chalan
+  - **Jhinjhoti**: Also Khamaj group, lighter feel
+  - **Pilu**: Mishra raaga that freely mixes many Khamaj elements

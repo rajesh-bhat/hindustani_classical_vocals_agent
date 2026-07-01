@@ -1,0 +1,25 @@
+# Raag Hindol
+- **Thaat**: Kalyan
+- **Jaati**: Audav-Audav (5-5) — pentatonic
+- **Vadi**: Dha (shuddha)
+- **Samvadi**: Ga (shuddha)
+- **Time**: After midnight (12 AM – 3 AM) — also associated with spring
+- **Rasa/Mood**: Shringara (romantic), spring-like freshness, gentle swing
+- **Swaras Used**: S G M D N (all shuddha/tivra — no komal)
+- **Varjit**: Re and Pa omitted
+- **Aaroh**: S G M D N S'
+- **Avaroh**: S' N D M G S
+- **Pakad**: S G M D, N D M G S
+- **Chalan Rules**:
+  - "Hindol" means swing — the raaga has a swinging, rocking quality
+  - Only 5 notes: S G M D N — no Re, no Pa
+  - Tivra Ma (M) is used
+  - The absence of Re and Pa creates a floating, suspended feel
+  - The jump from Sa to shuddha Ga (skipping Re) is characteristic
+  - Ga and Dha are the primary swaras
+  - Morning raaga with spring-like freshness
+- **Similar Raagas**:
+  - **Malkauns**: Also pentatonic but with all komal notes: S g m d n
+  - **Bhupali**: Also pentatonic but uses S R G P D (different 5 notes)
+  - **Yaman**: Full Kalyan thaat — adds Re and Pa to Hindol's base
+  - **Shuddha Kalyan**: Also omits Ga and Ni but adds Pa and Re

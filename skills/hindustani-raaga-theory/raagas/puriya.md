@@ -1,0 +1,24 @@
+# Raag Puriya
+- **Thaat**: Marwa
+- **Jaati**: Shadav-Shadav (6-6)
+- **Vadi**: Ga (shuddha)
+- **Samvadi**: Ni (shuddha)
+- **Time**: Sunset — Sandhi Prakash (5 PM – 7 PM)
+- **Rasa/Mood**: Serious, contemplative, restless yet dignified
+- **Swaras Used**: S r G M D N (komal Re, tivra Ma, no Pa)
+- **Varjit**: Pa is completely omitted
+- **Aaroh**: 'N r G M D N S'
+- **Avaroh**: S' N D M G r S
+- **Pakad**: N r G, M G, M D N, G r S / 'N S G
+- **Chalan Rules**:
+  - Like Marwa, Pa is completely absent
+  - Vadi is Ga (in Marwa it's Re) — this is the key distinction
+  - Ga is the dominant note — the raaga gravitates toward Ga
+  - Komal Re with andolan is important but secondary to Ni
+  - The phrase 'N r G approaching from Ni below is characteristic
+  - Sa is not a resting point — Ni or Ga serve as "home"
+  - Extremely similar to Marwa — the difference is subtle but important
+- **Similar Raagas**:
+  - **Marwa**: Same swaras, same omission of Pa, but vadi is Re (not Ni)
+  - **Sohini**: Also Marwa thaat, lighter, uses Ni as vadi
+  - **Puriya Dhanashri**: Adds Pa and komal Dha — becomes Purvi thaat

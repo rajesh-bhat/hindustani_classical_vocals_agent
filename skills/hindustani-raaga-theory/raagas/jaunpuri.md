@@ -1,0 +1,25 @@
+# Raag Jaunpuri
+- **Thaat**: Asavari
+- **Jaati**: Shadav-Sampurna (6-7)
+- **Vadi**: Dha (komal)
+- **Samvadi**: Ga (komal)
+- **Time**: Late morning (9 AM – 12 PM)
+- **Rasa/Mood**: Karuna (pathos), pensive, gentle sadness, dignity
+- **Swaras Used**: S R g m P d n (komal Ga, komal Dha, komal Ni)
+- **Varjit**: Ga omitted in aaroh
+- **Aaroh**: S R m P d n S' (Ga skipped in ascent)
+- **Avaroh**: S' n d P m g R S
+- **Pakad**: g m P, d P g, m g R S
+- **Chalan Rules**:
+  - Very similar to Asavari but with subtle differences
+  - Re is used more freely and prominently than in Asavari
+  - The phrase g m P (ascending through komal Ga to Pa) is central
+  - d P g is a characteristic descending phrase
+  - Pa is a strong resting note
+  - Morning raaga — must not be confused with evening/night raagas using similar swaras
+  - Considered a "complete" (Sampurna) version of Asavari
+- **Similar Raagas**:
+  - **Asavari**: Same thaat but more austere, Re used less
+  - **Darbari Kanada**: Same swaras but late night, heavy andolan
+  - **Kafi**: Uses same komal Ga but adds komal Ni differently
+  - **Todi**: Different thaat (uses tivra Ma, komal Re) but shares the emotional quality

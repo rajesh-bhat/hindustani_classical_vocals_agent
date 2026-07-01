@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raaga Guru | Hindustani Classical Music AI</title>
+    <meta name="description" content="AI-powered Hindustani classical music guru. Ask about raaga theory, swara rules, aaroh-avaroh, and more — all through voice.">
+    <link rel="stylesheet" href="style.css?v=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Ambient background -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <!-- Hero -->
+        <header class="hero" id="hero-section">
+            <div class="hero-icon">🎵</div>
+            <h1 class="title">Raaga Guru</h1>
+            <p class="subtitle">Your AI guide to Hindustani Classical Music — speak and learn</p>
+        </header>
+
+        <!-- Voice Session Card -->
+        <div class="glass-card session-card" id="session-card">
+            <!-- Status Bar -->
+            <div class="session-status-row">
+                <div id="live-indicator" class="live-indicator idle">
+                    <span class="live-dot"></span>
+                    <span id="live-status-label">Ready</span>
+                </div>
+                <div class="session-actions">
+                    <div class="mode-toggle" id="mode-toggle">
+                        <button id="mode-voice-btn" class="mode-btn active" data-mode="voice">🎙️ Voice</button>
+                        <button id="mode-text-btn" class="mode-btn" data-mode="text">⌨️ Text</button>
+                    </div>
+                    <button id="start-btn" class="btn btn-primary btn-glow">
+                        <span class="btn-icon">🎙️</span>
+                        <span id="start-btn-label">Talk to Guru</span>
+                    </button>
+                    <button id="stop-btn" class="btn btn-danger hidden">
+                        <span class="btn-icon">■</span>
+                        End Session
+                    </button>
+                </div>
+            </div>
+
+            <!-- Audio Visualizer -->
+            <div id="visualizer-container" class="visualizer-container hidden">
+                <canvas id="audio-visualizer" class="audio-visualizer"></canvas>
+                <div id="listening-badge" class="listening-badge">
+                    <span class="pulse-ring"></span>
+                    <span class="pulse-ring delay-1"></span>
+                    <span class="pulse-ring delay-2"></span>
+                    <span id="listening-label" class="listening-label">Listening...</span>
+                </div>
+            </div>
+
+            <!-- Text Input (text mode only) -->
+            <div id="text-input-row" class="text-input-row hidden">
+                <input type="text" id="text-input" class="text-input" placeholder="Ask about a raaga…" autocomplete="off">
+                <button id="text-send-btn" class="btn btn-primary">Send</button>
+            </div>
+
+            <p class="session-hint" id="session-hint">
+                Ask about any raaga — its structure, swara rules, aaroh-avaroh, pakad, time of day,
+                and how it differs from similar raagas.
+            </p>
+        </div>
+
+        <!-- Transcript -->
+        <div class="glass-card transcript-card" id="transcript-card">
+            <div class="card-header">
+                <h3>Conversation</h3>
+                <button id="clear-transcript-btn" class="clear-btn" title="Clear transcript">✕ Clear</button>
+            </div>
+            <div id="live-transcript" class="transcript-body">
+                <p class="transcript-placeholder">
+                    Start a session and ask your question — for example:<br>
+                    <em>"Tell me about Raag Yaman"</em> or <em>"What is the difference between Bhupali and Deshkar?"</em>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Built with ❤️ using Google Gemini · Hindustani Classical Music Knowledge Base</p>
+    </footer>
+
+    <script src="script.js?v=1"></script>
+</body>
+
+</html>

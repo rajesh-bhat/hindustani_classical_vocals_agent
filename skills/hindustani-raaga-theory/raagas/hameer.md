@@ -1,0 +1,25 @@
+# Raag Hameer
+- **Thaat**: Kalyan
+- **Jaati**: Sampurna-Sampurna (7-7)
+- **Vadi**: Dha (shuddha)
+- **Samvadi**: Ga (shuddha)
+- **Time**: Evening — 1st prahar of night (6 PM – 9 PM)
+- **Rasa/Mood**: Veera (heroism), vigor, confidence, boldness
+- **Swaras Used**: S R G M m P D N (both shuddha and tivra Ma)
+- **Varjit**: None (uses all 7 + both Ma variants)
+- **Aaroh**: S R G M D N S' (Pa often skipped in aaroh)
+- **Avaroh**: S' N D P, M m P D, m G R S
+- **Pakad**: M (tivra) D N S', N D P, M m P D, m G R S
+- **Chalan Rules**:
+  - Uses BOTH shuddha Ma and tivra Ma — key feature
+  - Tivra Ma is used in aaroh phrases and ascending movements
+  - Shuddha Ma appears in descending contexts
+  - Pa is sometimes skipped in aaroh (going M D directly)
+  - Dha is the dominant note
+  - Bold, confident mood — associated with valor and strength
+  - Rich and full raaga allowing extensive elaboration
+- **Similar Raagas**:
+  - **Kedar**: Also uses both Ma variants but different emphasis
+  - **Yaman**: Only tivra Ma
+  - **Kamod**: Also Kalyan thaat with specific Pa emphasis
+  - **Bihag**: Uses both Ma variants but different mood
