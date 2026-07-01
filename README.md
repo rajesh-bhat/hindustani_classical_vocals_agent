@@ -3,6 +3,27 @@
 A real-time voice AI agent that teaches Hindustani classical music raaga theory. 
 Ask about any raaga's structure, swara rules, aaroh-avaroh, pakad, and more — all through natural voice conversation.
 
+## Why a skills-based knowledge base (not just the model)?
+
+Raaga rules are precise and unforgiving — one wrong swara makes an answer flat wrong, and
+LLMs confidently hallucinate aaroh/avaroh, vadi/samvadi, and pakad for all but the most famous
+raagas. Instead of trusting the model's memory, Raaga Guru grounds every answer in a curated
+knowledge base loaded on demand:
+
+- **Accuracy over hallucination** — the model must treat the loaded skill file as ground truth
+  (never "correct" it from memory), so answers come from curated data, not fuzzy recall.
+- **Context efficiency (progressive disclosure)** — 1,164 raagas can't fit in a prompt; only the
+  one or two files a question needs are loaded, keeping each request small, cheap, and focused.
+- **Verifiable provenance** — every fact traces to a cited source (Bhatkhande, Tanarang, ITC SRA).
+- **Update without retraining** — fix a pakad or add a raaga by editing a markdown file.
+- **Consistency & authority** — one coherent interpretation (Bhatkhande system), so the guru
+  doesn't contradict itself across sessions.
+- **Transparency** — the UI shows a "📚 Loaded skill" marker for exactly which file was consulted.
+
+**Tradeoff:** the guru only knows what's in the files (40+ detailed raagas; voice mode falls back
+to Google Search, text mode admits the gap). For a teaching tool, bounded-and-correct beats
+broad-and-wrong.
+
 ## Architecture
 
 ```
