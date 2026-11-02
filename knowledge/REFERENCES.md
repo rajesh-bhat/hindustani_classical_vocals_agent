@@ -1,6 +1,6 @@
 # References & Sources
 
-All raaga skill files in this knowledge base were compiled from the following authoritative sources
+All raaga files in this knowledge base were compiled from the following authoritative sources
 on Hindustani classical music theory.
 
 ---
@@ -9,7 +9,7 @@ on Hindustani classical music theory.
 
 ### 1. Wikipedia — List of Ragas in Hindustani Classical Music
 - **URL**: https://en.wikipedia.org/wiki/List_of_ragas_in_Hindustani_classical_music
-- **Used for**: Source catalogue (1,164 entries) from which the 140+ raagas in `raagas/index.md` were curated, plus thaat classifications
+- **Used for**: Source catalogue (1,164 entries) from which the 125+ raagas in `raagas/index.md` were curated, plus thaat classifications
 - **Coverage**: All entries in `raagas/index.md`
 
 ### 2. Wikipedia — Individual Raaga Pages
@@ -93,7 +93,7 @@ on Hindustani classical music theory.
 
 ### 9. Bhatkhande's Kramik Pustak Malika
 - **Author**: Pt. Vishnu Narayan Bhatkhande
-- **Used for**: The foundational thaat classification system (10 thaats), swara notation conventions, and jaati categorization used throughout all skill files
+- **Used for**: The foundational thaat classification system (10 thaats), swara notation conventions, and jaati categorization used throughout all knowledge files
 
 ### 10. Sangeet Ratnakar by Sharangadeva
 - **Used for**: Historical context on raga-rasa theory and time theory (samay/prahar)
@@ -120,7 +120,7 @@ on Hindustani classical music theory.
 
 ## File-to-Source Mapping
 
-| Skill File | Primary Source | Cross-referenced With |
+| Knowledge File | Primary Source | Cross-referenced With |
 |------------|---------------|----------------------|
 | `raaga_fundamentals.md` | Wikipedia (Raga, Swara, Thaat) | Bhatkhande, Tanarang |
 | `raagas/index.md` | Wikipedia (List of Ragas) | — |

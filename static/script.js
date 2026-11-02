@@ -408,7 +408,7 @@ function appendTranscript(role, text) {
     liveTranscript.scrollTop = liveTranscript.scrollHeight;
 }
 
-// Human-readable labels for each backend skill/tool.
+// Human-readable labels for each backend knowledge tool.
 const TOOL_LABELS = {
     lookup_raaga:        'Raaga details',
     list_raagas:         'Raaga index',
@@ -424,7 +424,7 @@ function appendToolLoaded(tool, args) {
 
     const el = document.createElement('div');
     el.className = 'transcript-tool';
-    el.textContent = `📚 Loaded skill: ${label}${detail}`;
+    el.textContent = `📚 Loaded knowledge: ${label}${detail}`;
     liveTranscript.appendChild(el);
     liveTranscript.scrollTop = liveTranscript.scrollHeight;
 

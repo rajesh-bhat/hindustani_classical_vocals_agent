@@ -1,6 +1,6 @@
 """
-live_agent.py
-─────────────
+session.py
+──────────
 Manages a single Gemini session for the Raaga Guru — either a bidirectional
 Live API voice session, or a plain text chat (Live models are audio-native
 and reject TEXT-only response modalities, so text mode uses a separate,
@@ -20,7 +20,7 @@ Architecture:
                      ▼
   ┌─────────────────────────────────────────────────────┐
   │  tools/raaga_lookup.py                              │
-  │    • Reads skill files from skills/ directory       │
+  │    • Reads raaga facts from knowledge/ directory    │
   │    • Progressive disclosure — loads on demand       │
   │    • Returns structured raaga information           │
   └─────────────────────────────────────────────────────┘

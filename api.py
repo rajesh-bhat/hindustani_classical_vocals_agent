@@ -23,7 +23,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from agents.live_agent import run_live_session
+from agents.session import run_live_session
 from config import settings
 
 # ── Logging ───────────────────────────────────────────────────────────────────

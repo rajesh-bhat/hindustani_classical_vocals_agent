@@ -1,0 +1,103 @@
+# End-to-end agent eval cases (run with: uv run python evals/run_agent_evals.py)
+#
+# Each case sends one question to the real agent (text mode) and checks:
+#   expect_files     – knowledge files that MUST be loaded via lookup_raaga
+#                      (the model's raaga_name argument is resolved the same way
+#                      the tool resolves it, so "Darbari" counts as darbari_kanada)
+#   forbid_files     – files that must NOT be loaded (wrong-raaga mixups)
+#   expect_tools     – other tools that must be called
+#   no_tools         – true if no tool may be called at all
+#   answer_must      – list of groups; each group is a list of regexes, and at
+#                      least ONE regex per group must match the answer (case-insensitive)
+#   answer_must_not  – regexes that must NOT match the answer
+
+- id: informal-name
+  question: "Tell me about Darbari."
+  expect_files: [darbari_kanada]
+  answer_must:
+    - ["asavari"]
+    - ["\\bre\\b", "rishabh"]
+    - ["night"]
+
+- id: chalan-rule
+  question: "In Raag Yaman, can I sing Sa directly to Pa in the aaroh?"
+  expect_files: [yaman]
+  answer_must:
+    - ["\\bno\\b", "not", "avoid", "shouldn"]
+    - ["omit", "skip", "varjit", "not used", "excluded", "avoid"]
+
+- id: compare-same-scale
+  question: "What is the difference between Bhupali and Deshkar?"
+  expect_files: [bhupali, deshkar]
+  answer_must:
+    - ["evening", "night"]
+    - ["morning"]
+    - ["\\bdha\\b", "dhaivat"]
+
+- id: alias-pakad
+  question: "What is the pakad of Bhoop?"
+  expect_files: [bhupali]
+  answer_must:
+    - ["g\\s*,?\\s*r\\s*,?\\s*s", "ga\\s*,?\\s*re\\s*,?\\s*sa"]
+
+- id: near-neighbour-vadi
+  question: "What are the vadi and samvadi of Raag Puriya?"
+  expect_files: [puriya]
+  forbid_files: [puriya_dhanashri]
+  answer_must:
+    - ["\\bga\\b", "gandhar"]
+    - ["\\bni\\b", "nishad"]
+
+- id: same-scale-vadi
+  question: "What is the vadi of Marwa?"
+  expect_files: [marwa]
+  answer_must:
+    - ["\\bre\\b", "rishabh"]
+  answer_must_not: ["vadi (is|of marwa is) (shuddha )?ga\\b"]
+
+- id: audav-no-hallucinated-notes
+  question: "Give me the aaroh of Malkauns."
+  expect_files: [malkauns]
+  answer_must:
+    - ["\\bga\\b", "\\bg\\b"]
+    - ["\\bdha\\b", "\\bd\\b"]
+  # Re/Pa may be *mentioned* as omitted, but must not appear inside the scale
+  answer_must_not: ["\\b(sa|s)\\s*,?\\s*(re|r)\\b", "\\b(ma|m)\\s*,?\\s*(pa|p)\\b", "\\b(pa|p)\\s*,?\\s*(dha|d)\\b"]
+
+- id: spelling-variant
+  question: "What is the pakad of Bageshree?"
+  expect_files: [bageshri]
+  forbid_files: [shree]
+
+- id: compound-name-no-substitute
+  question: "Tell me about Raag Yaman Kalyan."
+  forbid_files: [yaman, kalyan]
+  answer_must:
+    - ["not (in|covered|available|found|part)", "don'?t have", "do not have", "no detailed", "isn'?t (in|covered|available)", "only (in|listed in) the index", "index"]
+
+- id: theory-thaats
+  question: "Which are the 10 Hindustani thaats?"
+  expect_tools: [lookup_fundamentals]
+  answer_must:
+    - ["bilawal"]
+    - ["kalyan"]
+    - ["khamaj"]
+    - ["bhairav\\b"]
+    - ["purvi", "poorvi"]
+    - ["marwa"]
+    - ["kafi"]
+    - ["asavari"]
+    - ["todi"]
+    - ["bhairavi"]
+
+- id: unknown-raaga
+  question: "Tell me about Raag Xyzabc."
+  expect_tools: [lookup_raaga]
+  answer_must:
+    - ["not (in|covered|available|found|part)", "don'?t have", "do not have", "no (detailed |)(information|file|entry|record)", "isn'?t (in|covered|available)", "couldn'?t find", "could not find", "unable to find"]
+
+- id: out-of-scope
+  question: "What is the weather like in Mumbai today?"
+  no_tools: true
+  answer_must:
+    - ["only help with hindustani classical music"]
