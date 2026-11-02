@@ -41,6 +41,9 @@ RESOLUTION_CASES = [
     ("Mian Malhar", "miyan_ki_malhar"),
     ("Vrindavani Sarang", "brindavani_sarang"),
     ("Bheempalasi", "bhimpalasi"),
+    ("Shri", "shree"),
+    ("Raag Shri", "shree"),
+    ("Bilaval", "bilawal"),
     # near-neighbours that must NOT collide
     ("Todi", "todi"),  # not miyan_ki_todi
     ("Puriya", "puriya"),  # not puriya_dhanashri

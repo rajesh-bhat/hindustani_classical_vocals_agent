@@ -81,6 +81,8 @@ _RAAGA_ALIASES = {
     "bheempalasi": "bhimpalasi",
     "vrindavani_sarang": "brindavani_sarang",
     "brindabani_sarang": "brindavani_sarang",
+    "shri": "shree",
+    "bilaval": "bilawal",
 }
 
 
