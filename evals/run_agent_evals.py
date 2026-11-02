@@ -28,7 +28,7 @@ import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agents.live_agent import run_live_session  # noqa: E402
+from agents.session import run_live_session  # noqa: E402
 from config import settings  # noqa: E402
 from evals.common import resolve_file  # noqa: E402
 

@@ -1,6 +1,8 @@
 import asyncio
-import websockets
 import json
+
+import websockets
+
 
 async def run_scenario(websocket, query, scenario_name):
     print(f"\n--- Running Scenario: {scenario_name} ---")
@@ -26,7 +28,7 @@ async def run_scenario(websocket, query, scenario_name):
             if "output_text" in message:
                 full_response += message["output_text"]
                 
-        except asyncio.TimeoutError:
+        except TimeoutError:
             break
         except Exception as e:
             print(f"Error receiving: {e}")

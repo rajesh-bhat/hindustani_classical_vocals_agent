@@ -64,6 +64,17 @@
   # Re/Pa may be *mentioned* as omitted, but must not appear inside the scale
   answer_must_not: ["\\b(sa|s)\\s*,?\\s*(re|r)\\b", "\\b(ma|m)\\s*,?\\s*(pa|p)\\b", "\\b(pa|p)\\s*,?\\s*(dha|d)\\b"]
 
+- id: spelling-variant
+  question: "What is the pakad of Bageshree?"
+  expect_files: [bageshri]
+  forbid_files: [shree]
+
+- id: compound-name-no-substitute
+  question: "Tell me about Raag Yaman Kalyan."
+  forbid_files: [yaman, kalyan]
+  answer_must:
+    - ["not (in|covered|available|found|part)", "don'?t have", "do not have", "no detailed", "isn'?t (in|covered|available)", "only (in|listed in) the index", "index"]
+
 - id: theory-thaats
   question: "Which are the 10 Hindustani thaats?"
   expect_tools: [lookup_fundamentals]

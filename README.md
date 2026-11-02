@@ -11,8 +11,9 @@ raagas. Instead of trusting the model's memory, Raaga Guru separates **what** it
 **how** it answers:
 
 - **Knowledge** (`knowledge/`) — curated raaga facts, loaded on demand by the lookup tools.
-- **Skill** (`skills/raaga-guru-procedure/`) — a pure procedure: classify the question, retrieve
-  from the knowledge base, ground the answer, reply crisply. It contains no musical facts.
+- **Skill** (`skills/answering-raaga-questions/`) — a pure procedure: classify the question,
+  retrieve from the knowledge base, ground the answer, reply crisply. It contains no musical
+  facts, and it is loaded into the system prompt at startup, so it is what actually drives the agent.
 
 This gives:
 
@@ -53,7 +54,7 @@ Live models are audio-native and can't return text-only responses.
 - **Voice-in / Voice-out**: Speak questions, hear answers
 - **Text-only mode**: Type questions and read replies — no mic or speakers needed
 - **Progressive disclosure**: 40+ detailed raaga knowledge files loaded on-demand
-- **Raaga index**: 140+ raagas organized by thaat, curated from Wikipedia's 1,164-entry list
+- **Raaga index**: 125+ raagas organized by thaat, curated from Wikipedia's 1,164-entry list
 - **Google Search fallback** (voice mode): For raagas not in the local knowledge base
 - **Real-time transcript**: See what you said and what the guru said
 
@@ -90,19 +91,27 @@ Click **🎙️ Talk to Guru** to speak, or switch to **⌨️ Text** mode to ty
 
 ## Skill & Knowledge Files
 
-**Skill = procedure.** [`skills/raaga-guru-procedure/SKILL.md`](skills/raaga-guru-procedure/SKILL.md)
+**Skill = procedure.** [`skills/answering-raaga-questions/SKILL.md`](skills/answering-raaga-questions/SKILL.md)
 is an [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills) that holds
 only the *how*: check scope, classify the question (single raaga / comparison / theory /
-browsing), call the right lookup tool(s), handle a miss, ground the answer in the retrieved
-payload, and shape a crisp reply. It contains no raaga facts.
+browsing), call the right lookup tool(s), handle a miss without substituting another raaga,
+ground the answer in the retrieved payload, and shape a crisp reply. It contains no raaga facts.
+
+**The system prompt is built, not written.** At startup `config.py` combines
+`prompts/persona.yml` (*who* the guru is) with the skill body (*how* it answers; frontmatter
+stripped). Edit the procedure in `SKILL.md` and both voice and text modes pick it up — there is
+no second copy to keep in sync.
 
 **Knowledge = facts.** `knowledge/` is the curated data the tools read, using a
-**progressive disclosure** pattern (only the files a question needs are loaded):
+**progressive disclosure** pattern (only the files a question needs are loaded).
+`tools/knowledge_base.py` maps a raaga name to its file strictly — exact name, then an alias
+table, then a unique leading-word prefix ("Darbari" → Darbari Kanada) — and never by substring,
+so a distinct raaga like "Yaman Kalyan" can't silently load Yaman's file.
 
 | File | Purpose |
 |------|---------|
 | `raaga_fundamentals.md` | Core theory (swaras, thaats, jaati, time) — `lookup_fundamentals()` |
-| `raagas/index.md` | Index of 140+ raagas by thaat (curated from Wikipedia's 1,164-entry list) — `list_raagas()` |
+| `raagas/index.md` | Index of 125+ raagas by thaat (curated from Wikipedia's 1,164-entry list) — `list_raagas()` |
 | `raagas/<name>.md` | Detailed structure for 40+ famous raagas — `lookup_raaga(name)` |
 | `REFERENCES.md` | Source citations for every file |
 
@@ -112,31 +121,35 @@ Each raaga file includes: Thaat, Jaati, Vadi, Samvadi, Time, Mood, Aaroh, Avaroh
 
 ```
 .
-├── api.py                       # FastAPI app: /ws/live WebSocket bridge, /health, static serving
-├── config.py                    # Settings (pydantic) — models, ports, knowledge path; loads the prompt
-├── agent_prompt.yml             # Gemini system prompt (shared by voice + text modes)
+├── api.py                         # FastAPI app: /ws/live WebSocket bridge, /health, static serving
+├── config.py                      # Settings (pydantic); builds the system prompt (persona + skill)
+├── prompts/
+│   └── persona.yml                # Who the guru is (no procedure, no facts)
+├── skills/                        # Agent Skills — procedures only
+│   └── answering-raaga-questions/
+│       └── SKILL.md               #   scope → classify → retrieve → handle miss → ground → reply
+├── knowledge/                     # Raaga facts — read only through the lookup tools
+│   ├── raaga_fundamentals.md      #   Core theory (swaras, thaats, jaati, time)
+│   ├── REFERENCES.md              #   Source citations
+│   └── raagas/                    #   index.md + 40+ per-raaga files
 ├── agents/
-│   └── live_agent.py            # Gemini session: Live API (voice) + generateContent chat (text)
+│   └── session.py                 # Gemini session: Live API (voice) + generateContent chat (text)
 ├── tools/
-│   └── raaga_lookup.py          # Tool declarations + handlers; reads knowledge files on demand
-├── skills/
-│   └── raaga-guru-procedure/
-│       └── SKILL.md             # Procedure: scope → classify → retrieve → ground → reply
-├── knowledge/                   # Raaga facts (read by the lookup tools)
-│   ├── raaga_fundamentals.md    #   Core theory (swaras, thaats, jaati, time)
-│   ├── REFERENCES.md            #   Source citations
-│   └── raagas/                  #   index.md + 40+ per-raaga files
-├── static/                      # Frontend (no build step)
-│   ├── index.html               #   Voice/Text UI
-│   ├── script.js                #   WebSocket client, audio pipeline, transcript
-│   └── style.css                #   Styling
-├── test_ws.py                   # WebSocket scenario test client (see TESTING.md)
-├── pyproject.toml / uv.lock     # Dependencies
-└── .env.example                 # Env template — copy to .env and add GOOGLE_API_KEY
+│   ├── knowledge_base.py          # Name → file resolution and file reads (pure Python)
+│   └── raaga_lookup.py            # Gemini tool declarations + handlers
+├── evals/                         # Retrieval evals (pytest) + end-to-end agent evals
+├── scripts/
+│   └── ws_smoke_test.py           # Manual smoke test against a running server
+├── static/                        # Frontend (no build step): index.html, script.js, style.css
+├── docs/                          # Architecture diagram (.excalidraw source + .png)
+├── CLAUDE.md                      # Guide for Claude Code / contributors
+├── TESTING.md                     # How to run the evals and smoke test
+├── pyproject.toml / uv.lock       # Dependencies
+└── .env.example                   # Env template — copy to .env and add GOOGLE_API_KEY
 ```
 
-**Request flow:** browser (`static/`) ⇄ `api.py` WebSocket ⇄ `agents/live_agent.py` ⇄ Gemini,
-with tool calls dispatched to `tools/raaga_lookup.py`, which reads from `knowledge/`.
+**Request flow:** browser (`static/`) ⇄ `api.py` WebSocket ⇄ `agents/session.py` ⇄ Gemini,
+with tool calls dispatched to `tools/raaga_lookup.py` → `tools/knowledge_base.py` → `knowledge/`.
 
 ## Tech Stack
 

@@ -5,19 +5,33 @@ All tuneable constants live here — never scatter magic strings across modules.
 from __future__ import annotations
 
 import os
-import yaml
+import re
 
+import yaml
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-# ── Load prompt from YAML ─────────────────────────────────────────────────────
-try:
-    with open(os.path.join(os.path.dirname(__file__), "agent_prompt.yml"), "r", encoding="utf-8") as _f:
-        _prompt_data = yaml.safe_load(_f)
-        _system_prompt = _prompt_data.get("system_instruction", "")
-except Exception as e:
-    print(f"Warning: Failed to load agent prompt from YAML: {e}")
-    _system_prompt = "You are a Hindustani Classical Music Guru."
+_ROOT = os.path.dirname(os.path.abspath(__file__))
+PERSONA_PATH = os.path.join(_ROOT, "prompts", "persona.yml")
+SKILL_PATH = os.path.join(_ROOT, "skills", "answering-raaga-questions", "SKILL.md")
 
+
+def _strip_frontmatter(markdown: str) -> str:
+    """Drop a leading YAML frontmatter block (--- ... ---) from a SKILL.md."""
+    match = re.match(r"\A---\s*\n.*?\n---\s*\n", markdown, flags=re.S)
+    return markdown[match.end():] if match else markdown
+
+
+def build_system_prompt() -> str:
+    """System prompt = persona (who) + answering skill (how).
+
+    Facts are never in the prompt; the skill tells the model to fetch them from
+    knowledge/ with the lookup tools.
+    """
+    with open(PERSONA_PATH, encoding="utf-8") as f:
+        persona = yaml.safe_load(f)["system_instruction"].strip()
+    with open(SKILL_PATH, encoding="utf-8") as f:
+        procedure = _strip_frontmatter(f.read()).strip()
+    return f"{persona}\n\n{procedure}\n"
 
 
 class Settings(BaseSettings):
@@ -58,11 +72,11 @@ class Settings(BaseSettings):
     # ── Knowledge base path ───────────────────────────────────────────────────
     # Raaga facts (per-raaga files, index, fundamentals, references). The
     # lookup tools read from here. Procedures for *how* to answer live
-    # separately under skills/ (see skills/raaga-guru-procedure/SKILL.md).
-    knowledge_dir: str = os.path.join(os.path.dirname(__file__), "knowledge")
+    # separately under skills/ (see skills/answering-raaga-questions/SKILL.md).
+    knowledge_dir: str = os.path.join(_ROOT, "knowledge")
 
-    # ── System prompt ─────────────────────────────────────────────────────────
-    live_system_prompt: str = _system_prompt
+    # ── System prompt (persona + answering skill; shared by voice + text) ─────
+    live_system_prompt: str = build_system_prompt()
 
     def validate_api_key(self) -> None:
         """Raise at startup if the key is missing."""

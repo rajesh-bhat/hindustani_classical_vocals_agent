@@ -10,11 +10,15 @@ RIGHT knowledge file, and that the loaded content carries the RIGHT facts.
 from __future__ import annotations
 
 import asyncio
+import os
 import re
 
 import pytest
+import yaml
 
+from config import SKILL_PATH, settings
 from evals.common import detailed_raaga_files, resolve_file
+from tools.knowledge_base import RAAGA_ALIASES, normalize_name
 from tools.raaga_lookup import (
     handle_list_raagas,
     handle_lookup_fundamentals,
@@ -44,6 +48,10 @@ RESOLUTION_CASES = [
     ("Shri", "shree"),
     ("Raag Shri", "shree"),
     ("Bilaval", "bilawal"),
+    ("Sri", "shree"),
+    ("Bageshree", "bageshri"),  # used to load shree.md ('shree' ⊂ 'bageshree')
+    ("Bageshwari", "bageshri"),
+    ("Desh", "des"),  # used to load deshkar.md
     # near-neighbours that must NOT collide
     ("Todi", "todi"),  # not miyan_ki_todi
     ("Puriya", "puriya"),  # not puriya_dhanashri
@@ -58,6 +66,43 @@ RESOLUTION_CASES = [
 @pytest.mark.parametrize(("name", "expected_file"), RESOLUTION_CASES)
 def test_name_resolves_to_right_file(name, expected_file):
     assert resolve_file(name) == expected_file
+
+
+# Distinct raagas whose names contain a covered raaga's name. Each used to load
+# the shorter raaga's file (e.g. "Yaman Kalyan" → yaman.md) — a confidently wrong
+# answer. They must miss instead.
+WRONG_RAAGA_REGRESSIONS = [
+    "Yaman Kalyan",
+    "Yamani Bilawal",
+    "Shuddha Kalyan",
+    "Puriya Kalyan",
+    "Kamod",
+    "Dhanashri",
+    "Devashree",
+    "Sindhu Bhairavi",
+    "Nat Bhairav",
+    "Maru Bihag",
+    "Des Malhar",
+    "Gujari Todi",
+    "Bilaskhani Todi",
+    "Komal Rishabh Asavari",
+    "Hindolam",
+]
+
+
+@pytest.mark.parametrize("name", WRONG_RAAGA_REGRESSIONS)
+def test_compound_name_does_not_load_component_raaga(name):
+    assert resolve_file(name) is None
+
+
+def test_partial_name_reports_matched_as():
+    result = asyncio.run(handle_lookup_raaga("Darbari"))
+    assert result["matched_as"] == "darbari_kanada" and "details" in result
+
+
+def test_ambiguous_partial_name_misses():
+    """'Miyan ki' prefixes both miyan_ki_todi and miyan_ki_malhar — don't guess."""
+    assert resolve_file("Miyan ki") is None
 
 
 @pytest.mark.parametrize("name", ["Xyzabc", "Raag Nonexistent", "Kirwani"])
@@ -113,7 +158,7 @@ def test_malkauns_aaroh_excludes_re_and_pa():
 
 
 def test_yaman_aaroh_skips_pa():
-    """The rule test_ws.py scenario 2 relies on must be in the loaded file."""
+    """The rule the Yaman chalan agent case relies on must be in the loaded file."""
     details = asyncio.run(handle_lookup_raaga("Yaman"))["details"]
     assert "P" not in _field(details, "Aaroh").split("(")[0]
     assert re.search(r"Pa is strictly omitted in the aaroh", details)
@@ -167,3 +212,76 @@ def test_index_detailed_list_matches_files():
     listed_block = index.split("## Detailed Raaga Files Available", 1)[1]
     listed = {n.strip().lower().replace(" ", "_") for n in listed_block.split("\n\n")[2].split(",")}
     assert set(detailed_raaga_files()) == listed
+
+
+def _index_raaga_names() -> list[str]:
+    """Every raaga name listed under a thaat heading in index.md."""
+    index = asyncio.run(handle_list_raagas())["index"]
+    body = index.split("## Detailed Raaga Files Available", 1)[0]
+    names = set()
+    for block in body.split("## ")[1:]:
+        if "Thaat Raagas" not in block.splitlines()[0]:
+            continue
+        for line in block.splitlines()[1:]:
+            if line and not line.startswith(("Swaras", "-", "#")):
+                for raw in line.split(","):
+                    name = re.sub(r"\(.*?\)|\*", "", raw).strip()
+                    if name:
+                        names.add(name)
+    return sorted(names)
+
+
+def test_index_sweep_is_not_empty():
+    assert len(_index_raaga_names()) >= 125  # README/skill claim "125+"
+
+
+@pytest.mark.parametrize("name", _index_raaga_names())
+def test_index_name_never_loads_a_different_raaga(name):
+    """Every index raaga loads its OWN file or nothing — never another raaga's."""
+    stem = resolve_file(name)
+    if stem is None:
+        return
+    own = RAAGA_ALIASES.get(normalize_name(name), normalize_name(name))
+    assert stem == own, f"{name!r} loaded {stem}.md"
+
+
+# ── 5. Skill follows the Agent Skills spec, and is what drives the prompt ─────
+SKILL_DIR = os.path.join(os.path.dirname(SKILL_PATH))
+
+
+def _skill_frontmatter() -> tuple[dict, str]:
+    with open(SKILL_PATH, encoding="utf-8") as f:
+        text = f.read()
+    m = re.match(r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z", text, flags=re.S)
+    assert m, "SKILL.md must start with YAML frontmatter"
+    return yaml.safe_load(m.group(1)), m.group(2)
+
+
+def test_skill_frontmatter_follows_spec():
+    meta, body = _skill_frontmatter()
+    name = meta["name"]
+    assert name == os.path.basename(SKILL_DIR), "name must match the skill directory"
+    assert re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name) and len(name) <= 64
+    assert 0 < len(meta["description"]) <= 1024
+    assert all(isinstance(v, str) for v in meta.get("metadata", {}).values())
+    assert len(body.splitlines()) < 500
+
+
+def test_skill_contains_no_raaga_facts():
+    """Procedure only: no aaroh/avaroh/pakad sequences for any raaga."""
+    _, body = _skill_frontmatter()
+    assert not re.search(r"\*\*(Aaroh|Avaroh|Pakad|Vadi|Samvadi)\*\*:", body)
+    for stem in detailed_raaga_files():
+        details = asyncio.run(handle_lookup_raaga(stem))["details"]
+        m = re.search(r"\*\*Aaroh\*\*:\s*(.+)", details)
+        if m:
+            assert m.group(1).strip() not in body
+
+
+def test_system_prompt_is_persona_plus_skill():
+    prompt = settings.live_system_prompt
+    _, body = _skill_frontmatter()
+    assert body.strip() in prompt
+    assert "name: answering-raaga-questions" not in prompt  # frontmatter stripped
+    assert "Hindustani Classical Music Guru" in prompt
+    assert "I only help with Hindustani classical music." in prompt

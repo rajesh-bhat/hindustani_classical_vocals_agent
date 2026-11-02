@@ -1,6 +1,6 @@
 # Hindustani Classical Raagas — Index by Thaat
 
-A curated selection of 140+ commonly performed raagas, organized by Thaat.
+A curated selection of 125+ commonly performed raagas, organized by Thaat.
 Drawn from Wikipedia's List of Ragas in Hindustani Classical Music (a 1,164-entry
 catalogue); this index covers the widely sung raagas, not the full list.
 
@@ -15,7 +15,6 @@ catalogue); this index covers the widely sung raagas, not the full list.
 - Asavari Thaat Raagas
 - Todi Thaat Raagas
 - Bhairavi Thaat Raagas
-- Mixed/Other Thaat Raagas
 
 ---
 
