@@ -4,6 +4,39 @@ This document outlines the testing methodology for the Gemini Live API backend (
 
 Because the agent is designed for interactive voice, standard unit tests aren't sufficient. We must verify that the model correctly intercepts user speech, fires the correct backend python tools, and synthesizes accurate responses without hallucinating.
 
+## Evals
+
+Two eval suites live in `evals/`:
+
+### 1. Retrieval evals (offline, deterministic) — `evals/test_retrieval.py`
+No API key needed. Verifies the **right raaga file is loaded** and that it carries the **right facts**:
+- **Name → file resolution**: prefixes ("Raag Yaman"), informal names ("Darbari" → `darbari_kanada`),
+  aliases ("Bhoop" → `bhupali`), and near-neighbours that must not collide ("Todi" ≠ `miyan_ki_todi`,
+  "Puriya" ≠ `puriya_dhanashri`, "Kalyan" ≠ `yaman`).
+- **Clean misses**: unknown or index-only raagas return an error, never another raaga's file.
+- **Facts**: thaat / vadi / samvadi / time / aaroh for key raagas; Malkauns aaroh has no Re/Pa;
+  Yaman aaroh skips Pa; fundamentals list all 10 thaats.
+- **Integrity**: every raaga file has the required fields and is reachable by its own name; the
+  index's "Detailed Raaga Files" list matches the files on disk.
+
+```bash
+uv run pytest -v
+```
+
+### 2. Agent evals (end-to-end, needs `GOOGLE_API_KEY`) — `evals/run_agent_evals.py`
+Sends each question in `evals/agent_cases.yaml` to the real agent (text mode), then checks
+**which knowledge files the agent loaded** (each `lookup_raaga` argument is resolved exactly as
+the tool resolves it) and **whether the answer contains the right facts** (regex groups, plus
+forbidden patterns that catch hallucinated swaras or wrong-raaga mixups).
+
+```bash
+uv run python evals/run_agent_evals.py              # all cases
+uv run python evals/run_agent_evals.py -k thaats    # filter by case id
+uv run python evals/run_agent_evals.py --repeat 3 -v  # repeat to measure flakiness
+```
+
+Add a case by appending to `agent_cases.yaml` — see the field reference at the top of that file.
+
 ## Automated Scenario Testing
 
 We use `test_ws.py` to natively stream audio-simulating WebSocket frames directly to the backend exactly as the browser client would. 
