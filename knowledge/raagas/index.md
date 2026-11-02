@@ -73,7 +73,7 @@ Bhairavi, Malkauns, Sindhu Bhairavi, Bilaskhani Todi*, Komal Rishabh Asavari*, S
 
 ## Detailed Raaga Files Available
 
-The following raagas have complete detailed skill files with aaroh, avaroh, pakad, vadi, samvadi, chalan rules, time, mood, and similar raaga comparisons:
+The following raagas have complete detailed files with aaroh, avaroh, pakad, vadi, samvadi, chalan rules, time, mood, and similar raaga comparisons:
 
 Yaman, Bhairav, Bhairavi, Todi, Marwa, Bilawal, Kalyan, Khamaj, Kafi, Asavari, Bhimpalasi, Bageshri, Darbari Kanada, Malkauns, Durga, Deshkar, Bhupali, Bihag, Kedar, Hansdhwani, Jaunpuri, Puriya, Puriya Dhanashri, Shree, Miyan ki Todi, Miyan ki Malhar, Megh, Des, Tilak Kamod, Hameer, Patdeep, Multani, Lalit, Ahir Bhairav, Brindavani Sarang, Madhuvanti, Sohini, Chandrakauns, Basant, Hindol
 

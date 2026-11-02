@@ -20,7 +20,7 @@ Architecture:
                      ▼
   ┌─────────────────────────────────────────────────────┐
   │  tools/raaga_lookup.py                              │
-  │    • Reads skill files from skills/ directory       │
+  │    • Reads raaga facts from knowledge/ directory    │
   │    • Progressive disclosure — loads on demand       │
   │    • Returns structured raaga information           │
   └─────────────────────────────────────────────────────┘

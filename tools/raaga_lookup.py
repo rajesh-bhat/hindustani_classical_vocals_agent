@@ -1,10 +1,13 @@
 """
 tools/raaga_lookup.py
 ─────────────────────
-Skill-based raaga knowledge lookup tool.
+Raaga knowledge-base lookup tools.
 
 Implements progressive disclosure: the agent calls these tools to fetch
 raaga details on demand, rather than loading the entire raaga corpus into context.
+
+The facts live in knowledge/ (settings.knowledge_dir). The procedure for when
+and how to call these tools lives in skills/raaga-guru-procedure/SKILL.md.
 
 Three functions are exposed as Gemini function declarations:
   1. lookup_raaga(name)    — loads a specific raaga's detailed structure
@@ -25,9 +28,9 @@ from config import settings
 logger = logging.getLogger(__name__)
 
 
-def _skills_path(*parts: str) -> str:
-    """Build an absolute path under the skills directory."""
-    return os.path.join(settings.skills_dir, *parts)
+def _knowledge_path(*parts: str) -> str:
+    """Build an absolute path under the knowledge base directory."""
+    return os.path.join(settings.knowledge_dir, *parts)
 
 
 def _read_file(path: str) -> str:
@@ -36,10 +39,10 @@ def _read_file(path: str) -> str:
         with open(path, encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
-        logger.warning("Skill file not found: %s", path)
+        logger.warning("Knowledge file not found: %s", path)
         return ""
     except Exception:
-        logger.exception("Error reading skill file: %s", path)
+        logger.exception("Error reading knowledge file: %s", path)
         return ""
 
 
@@ -84,18 +87,18 @@ _RAAGA_ALIASES = {
 # ── Tool implementations ─────────────────────────────────────────────────────
 
 async def handle_lookup_raaga(raaga_name: str) -> dict[str, Any]:
-    """Look up detailed structure of a specific raaga from skill files."""
+    """Look up detailed structure of a specific raaga from the knowledge base."""
     normalized = _normalize_name(raaga_name)
     normalized = _RAAGA_ALIASES.get(normalized, normalized)
-    file_path = _skills_path("raagas", f"{normalized}.md")
+    file_path = _knowledge_path("raagas", f"{normalized}.md")
 
     content = _read_file(file_path)
     if content:
-        logger.info("Loaded raaga skill file: %s", file_path)
+        logger.info("Loaded raaga knowledge file: %s", file_path)
         return {"raaga": raaga_name, "details": content}
 
     # Try fuzzy: list all files and find closest match
-    raagas_dir = _skills_path("raagas")
+    raagas_dir = _knowledge_path("raagas")
     if os.path.isdir(raagas_dir):
         available = [
             f[:-3] for f in os.listdir(raagas_dir)
@@ -105,7 +108,7 @@ async def handle_lookup_raaga(raaga_name: str) -> dict[str, Any]:
         matches = [r for r in available if normalized in r or r in normalized]
         if matches:
             match = matches[0]
-            content = _read_file(_skills_path("raagas", f"{match}.md"))
+            content = _read_file(_knowledge_path("raagas", f"{match}.md"))
             if content:
                 return {"raaga": raaga_name, "matched_as": match, "details": content}
 
@@ -116,12 +119,12 @@ async def handle_lookup_raaga(raaga_name: str) -> dict[str, Any]:
                      f"Available detailed raagas: {', '.join(sorted(available)[:20])}..."
         }
 
-    return {"raaga": raaga_name, "error": "Raaga skills directory not found."}
+    return {"raaga": raaga_name, "error": "Raaga knowledge directory not found."}
 
 
 async def handle_list_raagas() -> dict[str, Any]:
     """List all available raagas from the index."""
-    index_path = _skills_path("raagas", "index.md")
+    index_path = _knowledge_path("raagas", "index.md")
     content = _read_file(index_path)
     if content:
         return {"index": content}
@@ -130,7 +133,7 @@ async def handle_list_raagas() -> dict[str, Any]:
 
 async def handle_lookup_fundamentals() -> dict[str, Any]:
     """Load core Hindustani music theory fundamentals."""
-    path = _skills_path("raaga_fundamentals.md")
+    path = _knowledge_path("raaga_fundamentals.md")
     content = _read_file(path)
     if content:
         return {"fundamentals": content}

@@ -55,12 +55,11 @@ class Settings(BaseSettings):
     # Allowed origins for CORS (comma-separated).
     cors_origins: str = "*"
 
-    # ── Skill files base path ─────────────────────────────────────────────────
-    # Points at the skill folder itself (canonical Agent Skills layout:
-    # skills/<skill-name>/SKILL.md + bundled resources).
-    skills_dir: str = os.path.join(
-        os.path.dirname(__file__), "skills", "hindustani-raaga-theory"
-    )
+    # ── Knowledge base path ───────────────────────────────────────────────────
+    # Raaga facts (per-raaga files, index, fundamentals, references). The
+    # lookup tools read from here. Procedures for *how* to answer live
+    # separately under skills/ (see skills/raaga-guru-procedure/SKILL.md).
+    knowledge_dir: str = os.path.join(os.path.dirname(__file__), "knowledge")
 
     # ── System prompt ─────────────────────────────────────────────────────────
     live_system_prompt: str = _system_prompt
