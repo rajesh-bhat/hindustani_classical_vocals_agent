@@ -159,10 +159,6 @@ def test_every_file_is_reachable_by_its_own_name(stem):
     assert resolve_file(stem.replace("_", " ").title()) == stem
 
 
-@pytest.mark.xfail(
-    strict=True,
-    reason="abhogi.md exists but is not in the index's 'Detailed Raaga Files Available' list",
-)
 def test_index_detailed_list_matches_files():
     index = asyncio.run(handle_list_raagas())["index"]
     listed_block = index.split("## Detailed Raaga Files Available", 1)[1]
